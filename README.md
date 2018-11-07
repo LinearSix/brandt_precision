@@ -13,3 +13,8 @@ The HOME page should have a
 * The enlarged PORTFOLIO page images should contain info about the job
 * The SERVICES page should have email links for each department
 * The CONTACT page should have a linked google map
+
+* Highlight concept to product
+* Highlioght tooling capability
+* Medical, instrument, semiconductor
+* 
