@@ -1,4 +1,31 @@
-.div_body {
+.div_main_container {
+    width: 900px;
+    height: 100%;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+.div_header_logo {
+    width: 400px;
+    height: 150px;
+    float: left;
+    background-color: white;
+    padding-left: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    /* border: red 1px solid; */
+}
+.div_header_contact {
+    width: 450px;
+    height: 150px;
+    float: left;
+    text-align: center;
+    background-color: gray;
+    margin-left: auto;
+    margin-right: auto;
+}
+.div_content {
     width: 900px;
     height: 100%;
     background-color: white;
