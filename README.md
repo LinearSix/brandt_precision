@@ -15,6 +15,6 @@ The HOME page should have a
 * The CONTACT page should have a linked google map
 
 * Highlight concept to product
-* Highlioght tooling capability
+* Highlight tooling capability
 * Medical, instrument, semiconductor
 * 

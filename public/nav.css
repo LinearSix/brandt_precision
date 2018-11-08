@@ -12,11 +12,12 @@
         src: url("acherus_grotesque_-_regular.otf") format("opentype");
     }
     .div_nav_tagline {
-        height: 62px;
+        height: 30px;
         padding-top: 2px;
         font-family: 'Acherus Grotesque', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         color: white;
         font-size: 10pt;
+        white-space: nowrap;
     }
     /* navigation bar div */
     .div_logo {
@@ -40,7 +41,7 @@
         padding-bottom: 7px;
         text-align: center;
         font-family: 'Acherus Grotesque', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        font-size: 14px;
+        font-size: 13px;
         color: white;
         /* background: linear-gradient(rgb(105, 85, 20), rgb(141, 127, 70), rgb(36, 18, 2)); */
         margin-top: 20px;
