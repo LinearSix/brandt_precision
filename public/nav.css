@@ -1,21 +1,20 @@
-@media screen and (display-mode: fullscreen) {
-    body, html {
-        font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
-        height: 100%;
-        width: 900px;
-        margin: 0;
-        background: linear-gradient(#686c8c, #eaebf0);
+    .div_nav_container {
+        height: 66px;
+        background: linear-gradient(90deg, rgba(255, 255, 255, .6)10%, rgba(240, 138, 49, .3)90%);
     }
     /* navigation bar div */
-    .div_nav {
-        width: 890px;
-        height: 40px;
+    .div_logo {
+        height: 46px;
+        float: left;
         padding-left: 10px;
-        margin-left: auto;
-        margin-right: auto;
-        background: linear-gradient(#3d3d3d, #131313);
-        border-top-left-radius: 6px;
-        border-top-right-radius: 6px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        /* border: red 1px solid; */
+    }
+    .div_nav {
+        height: 66px;
+        float: right;
+        padding-right: 10px;
     }
     /* navigation link divs */
     .div_nav_link {
@@ -28,7 +27,7 @@
         font-size: 10px;
         color: white;
         background: linear-gradient(#7682c6, #4857b0);
-        margin-top: 7px;
+        margin-top: 20px;
         margin-left: 5px;
         margin-right: 5px;
         border-radius: 2px;
@@ -38,98 +37,3 @@
         color: white;
         text-decoration: none;
     }
-}
-
-@media all and (orientation: landscape) {
-    body, html {
-        font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
-        height: 100%;
-        margin: 0;
-        background: linear-gradient(#686c8c, #eaebf0);
-    }
-    /* large background image with linear gradient for homepage */
-    .bg_home_img {
-        background-image: linear-gradient(rgba(0, 0, 0, 1.0)12%, rgba(0, 0, 0, 0.01)25%, rgba(0, 0, 0, 1.0)70%),
-                      url("drumbas_main_bw.jpeg");
-        background-size: 1600px; 
-    }
-    /* navigation bar div */
-    .div_nav {
-        width: 890px;
-        height: 40px;
-        padding-left: 10px;
-        margin-left: auto;
-        margin-right: auto;
-        background: linear-gradient(#3d3d3d, #131313);
-        border-top-left-radius: 6px;
-        border-top-right-radius: 6px;
-    }
-    /* navigation link divs */
-    .div_nav_link {
-        float: left;
-        width: 100px;
-        padding-top: 7px;
-        padding-bottom: 7px;
-        text-align: center;
-        /* font-family: 'Avenir', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
-        font-size: 10px;
-        color: white;
-        background: linear-gradient(#7682c6, #4857b0);
-        margin-top: 7px;
-        margin-left: 5px;
-        margin-right: 5px;
-        border-radius: 2px;
-    }
-    /* link styling */
-    a {
-        color: white;
-        text-decoration: none;
-    }
-}
-
-@media screen and (max-width: 1280px) {
-    body, html {
-        font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
-        height: 100%;
-        margin: 0;
-        background: linear-gradient(#686c8c, #eaebf0);
-    }
-    /* large background image with linear gradient for homepage */
-    .bg_home_img {
-        background-image: linear-gradient(rgba(0, 0, 0, 1.0)12%, rgba(0, 0, 0, 0.01)25%, rgba(0, 0, 0, 1.0)70%),
-                      url("drumbas_main_bw.jpeg");
-        background-size: 1600px; 
-    }
-    /* navigation bar div */
-    .div_nav {
-        width: 890px;
-        height: 40px;
-        padding-left: 10px;
-        margin-left: auto;
-        margin-right: auto;
-        background: linear-gradient(#3d3d3d, #131313);
-        border-top-left-radius: 6px;
-        border-top-right-radius: 6px;    }
-    /* navigation link divs */
-    .div_nav_link {
-        float: left;
-        width: 100px;
-        min-width: 50px;
-        padding-top: 7px;
-        padding-bottom: 7px;
-        text-align: center;
-        /* font-family: 'Avenir', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
-        font-size: 10px;
-        color: white;
-        background: linear-gradient(#7682c6, #4857b0);
-        margin-top: 7px;
-        margin-left: 5px;
-        margin-right: 5px;
-        border-radius: 2px;
-    }
-    /* link styling */
-    a {
-        color: white;
-        text-decoration: none;
-    }
-}

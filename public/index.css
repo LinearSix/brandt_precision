@@ -1,34 +1,16 @@
+body, html {
+    background: url("background_home.jpg");
+    background-size: 100%;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
+    margin: 0;
+}
+.div_body {
+    height: 100vh;
+    background-color: rgba(32, 16, 0, 0.7);
+}
 .div_main_container {
-    width: 900px;
+    width: 80%;
     height: 100%;
-    border-radius: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
-}
-.div_header_logo {
-    width: 400px;
-    height: 150px;
-    float: left;
-    background-color: white;
-    padding-left: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    /* border: red 1px solid; */
-}
-.div_header_contact {
-    width: 450px;
-    height: 150px;
-    float: left;
-    text-align: center;
-    background-color: gray;
-    margin-left: auto;
-    margin-right: auto;
-}
-.div_content {
-    width: 900px;
-    height: 100%;
-    background-color: white;
     margin-left: auto;
     margin-right: auto;
 }
