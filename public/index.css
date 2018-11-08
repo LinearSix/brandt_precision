@@ -20,34 +20,30 @@ body, html {
 }
 .div_machining_excellence {
     z-index: 1;
-    height: 80px;
+    height: 82px;
     margin-top: 100px;
     font-family: 'Acherus Grotesque', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: rgba(255, 255, 255, .3);
+    color: rgba(252, 234, 71, 0.3);
     font-weight: bolder;
-    text-align: left;
+    text-align: center;
     font-size: 60pt;
     overflow: hidden;
     text-overflow: clip;
     white-space: nowrap;    
-    /* border: solid blue 1px; */
 }
 .div_thumb_blurb {
     z-index: 2;
-    /* position: absolute; */
-    /* width: 80%; */
-    /* top: 280px; */
     font-family: 'Acherus Grotesque', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: rgb(255, 255, 255);
-    text-align: left;
+    text-align: center;
     font-size: 12pt;
     text-shadow: 0px 0px 10px black;
-    /* border: solid red 1px; */
+
 }
 .div_thumb_container {
     display: flex;
     justify-content: space-around;
-    margin-top: 100px;
+    margin-top: 80px;
 }
 .div_thumb {
     float: left;
@@ -59,17 +55,13 @@ body, html {
     text-align: center;
     font-size: 10pt;
     text-shadow: 0px 0px 10px black;
+    /* -webkit-filter: grayscale(100%); Safari 6.0 - 9.0 */
+    -webkit-filter: brightness(200%);
+    filter: brightness(100%);
+    /* filter: grayscale(50%); */
 }
-.div_footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    padding-bottom: 7px;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: 'Acherus Grotesque', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    font-size: 10pt;
-    text-shadow: 0px 0px 10px black;
+.div_thumb:hover {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    /* filter: grayscale(0%); */
+    filter: brightness(120%);
 }
