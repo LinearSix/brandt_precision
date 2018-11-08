@@ -10,7 +10,7 @@
     font-family: 'Acherus Grotesque', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 10pt;
     text-shadow: 0px 0px 10px black;
-    border-top: solid rgba(255, 255, 255, .7) 1px;
+    border-top: solid rgba(255, 255, 255, .8) 1px;
 }
 @font-face {
     font-family: "Asche";
@@ -22,5 +22,5 @@
 }
 .div_footer_contact {
     margin: 7px;
-    color: rgb(182, 173, 90);
+    color: rgb(209, 204, 157);
 }
