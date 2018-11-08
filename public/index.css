@@ -13,4 +13,17 @@ body, html {
     height: 100%;
     margin-left: auto;
     margin-right: auto;
+    /* border-left: solid rgba(255, 255, 255, .6) 1px; */
+}
+@font-face {
+    font-family: "Asche";
+    src: url("acherus_grotesque_-_regular.otf") format("opentype");
+}
+.div_machining_excellence {
+    padding-top: 2px;
+    font-family: 'Acherus Grotesque', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgba(255, 255, 255, .2);
+    font-weight: bolder;
+    text-align: center;
+    font-size: 60pt;
 }
