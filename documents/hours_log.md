@@ -6,3 +6,6 @@
 * 6:45 - 8:30 | revamp layout, scrap replication and move to original design
 ## 2018_11_08
 * 7am - 2pm | tweak navigation, add taglines and thumbnails. Add footer
+* 4 - 6pm | Modify colors via customer request, start mobile css additions
+## 2018_11_09
+* 10:30am - 12:45pm | work on mobile friendly css
