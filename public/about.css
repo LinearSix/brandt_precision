@@ -1,0 +1,50 @@
+    .div_staff_blurb {
+        z-index: 2;
+        margin-top: 100px;
+        font-family: 'Acherus Grotesque', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        font-size: 12pt;
+        text-shadow: 0px 0px 10px black;
+
+    }
+    .div_staff_photo {
+        width: 90%;
+        border: solid white 2px;
+    }
+    
+
+@media screen and (max-width: 767px) {
+    .div_staff_blurb {
+        z-index: 2;
+        margin-top: 100px;
+        font-family: 'Acherus Grotesque', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        font-size: 10pt;
+        text-shadow: 0px 0px 10px black;
+        
+    }
+    .div_staff_photo {
+        width: 90%;
+        border: solid white 2px;
+    }
+}
+@media screen and (max-width: 479px) {
+    .div_staff_blurb {
+        padding-left: 30px;
+        padding-right: 30px;
+        z-index: 2;
+        margin-top: 60px;
+        font-family: 'Acherus Grotesque', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        font-size: 10pt;
+        text-shadow: 0px 0px 10px black;
+        
+    }
+    .div_staff_photo {
+        width: 90%;
+        border: solid white 2px;
+    }
+}

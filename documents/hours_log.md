@@ -9,3 +9,5 @@
 * 4 - 6pm | Modify colors via customer request, start mobile css additions
 ## 2018_11_09
 * 10:30am - 12:45pm | work on mobile friendly css
+* 1:30 - 4:00pm | work on mobile-friendly css
+* 4:00 - 5:00 | flesh out page routes
