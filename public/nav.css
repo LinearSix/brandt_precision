@@ -49,7 +49,12 @@
         margin-left: 14px;
         margin-right: 14px;
     }
-    /* link styling */
+    #div_phone_link {
+        display: inline;
+    }
+    #div_phone_icon {
+        display: none;
+    }
     a {
         color: rgb(209, 204, 157);
         text-decoration: none;
@@ -112,7 +117,12 @@
         margin-right: 6px;
 
     }
-    /* link styling */
+    #div_phone_link {
+        display: inline;
+    }
+    #div_phone_icon {
+        display: none;
+    }
     a {
         color: rgb(209, 204, 157);
         text-decoration: none;
@@ -155,9 +165,12 @@
         /* border: red 1px solid; */
     }
     .div_nav {
+        width: 95%;
+        display: flex;
+        justify-content: space-around;
         height: 68px;
-        float: right;
-        padding-right: 10px;
+        /* float: right; */
+        border: solid blue 1px;
     }
     /* navigation link divs */
     .div_nav_link {
@@ -173,8 +186,16 @@
         margin-top: 40px;
         margin-left: 5px;
         margin-right: 5px;
+        border:solid red 1px;
     }
-    /* link styling */
+    #div_phone_link {
+        display: none;
+    }
+    #div_phone_icon {
+        float: right;
+        display: inline;
+        margin: 9px;
+    }
     a {
         color: rgb(209, 204, 157);
         text-decoration: none;
