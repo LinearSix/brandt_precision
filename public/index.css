@@ -189,12 +189,13 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
-        margin-top: 40px;
+        margin-top: 30px;
+        margin-bottom: 20px;
     }
     .div_thumb_container {
         /* float: left; */
         width: 108px;
-        height: 135px;
+        height: 140px;
         /* border: solid rgba(255, 255, 255, .7) 1px; */
         font-family: 'Acherus Grotesque', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         color: rgb(255, 255, 255);
