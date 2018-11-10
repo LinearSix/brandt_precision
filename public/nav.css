@@ -150,7 +150,7 @@
     .div_nav_tagline {
         height: 30px;
         padding-top: 2px;
-        padding-left: 10px;
+        padding-left: 14px;
         font-family: 'Acherus Grotesque', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         color: white;
         font-size: 10pt;
@@ -179,7 +179,7 @@
         padding-bottom: 7px;
         text-align: center;
         font-family: 'Acherus Grotesque', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        font-size: 11px;
+        font-size: 12px;
         color: rgb(209, 204, 157);
         /* background: linear-gradient(rgb(105, 85, 20), rgb(141, 127, 70), rgb(36, 18, 2)); */
         margin-top: 40px;
@@ -192,7 +192,7 @@
     #div_phone_icon {
         float: right;
         display: inline;
-        margin: 9px;
+        margin: 12px;
     }
     a {
         color: rgb(209, 204, 157);
