@@ -14,23 +14,29 @@
         <div class="div_main_container">
             <% include partials/nav_bar.ejs %>
             <div class="div_portfolio_main">
-                <div class="div_portfolio_sub_header">Portfolio Job #1</div>
-                <div class="div_portfolio_blurb">
-                <img id="img_portfolio_photo" src="portfolio_01.jpg">
+                <div class="div_portfolio_sub_header_left">Portfolio Job #1</div>
+                    <div id="myModal" class="modal">
+                        <!-- The Close Button -->
+                        <span class="close">&times;</span>
+                        <!-- Modal Content (The Image) -->
+                        <img class="modal-content" id="img01">
+                    </div>
+                <div class="div_portfolio_blurb_left">
+                <img class="img_portfolio_photo_left" id="myImg" src="portfolio_01.jpg">
                 This is a description of the techniques, tooling, materials, and specialized skills utilized in this project. 
                 Any information that sets Brandt Precision Machining apart from other shops should be listed here. 
                 Why was this job awarded to BPM rather than some other machine shop?
                 </div>
-                <div class="div_portfolio_sub_header">Portfolio Job #1</div>
-                <div class="div_portfolio_blurb">
-                <img id="img_portfolio_photo" src="portfolio_01.jpg">
+                <div class="div_portfolio_sub_header_right">Portfolio Job #2</div>
+                <div class="div_portfolio_blurb_right">
+                <img class="img_portfolio_photo_right" id="img02" alt="Portfolio Image 2" src="portfolio_02.jpg">
                 This is a description of the techniques, tooling, materials, and specialized skills utilized in this project. 
                 Any information that sets Brandt Precision Machining apart from other shops should be listed here. 
                 Why was this job awarded to BPM rather than some other machine shop?
                 </div>
-                <div class="div_portfolio_sub_header">Portfolio Job #1</div>
-                <div class="div_portfolio_blurb">
-                <img id="img_portfolio_photo" src="portfolio_01.jpg">
+                <div class="div_portfolio_sub_header_left">Portfolio Job #3</div>
+                <div class="div_portfolio_blurb_left">
+                <img class="img_portfolio_photo_left" id="img03" alt="Portfolio Image 3" src="portfolio_01.jpg">
                 This is a description of the techniques, tooling, materials, and specialized skills utilized in this project. 
                 Any information that sets Brandt Precision Machining apart from other shops should be listed here. 
                 Why was this job awarded to BPM rather than some other machine shop?
@@ -39,5 +45,27 @@
         <% include partials/footer.ejs %>
         </div>
     </div>
+    <script>
+        // Get the modal
+        let modal = document.getElementById('myModal');
+        
+        // Get the image and insert it inside the modal - use its "alt" text as a caption
+        let img = document.getElementById('myImg');
+        let modalImg = document.getElementById("img01");
+        let captionText = document.getElementById("caption");
+        img.onclick = function(){
+            modal.style.display = "block";
+            modalImg.src = this.src;
+            captionText.innerHTML = this.alt;
+        }
+        
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+        
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function() { 
+            modal.style.display = "none";
+        }
+    </script>
 </body>
 </html>

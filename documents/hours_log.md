@@ -18,3 +18,5 @@
 * 5:30 - 7pm | passible mobile version of about
 * 7:45 - 8pm | complete routes
 * 8 - 9pm | start mobile layout for portfolio page
+## 2018_11_12
+* 8:30 - 9:30am | staggerered layout and click-enlarge for portfolio page
