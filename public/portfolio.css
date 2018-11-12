@@ -78,7 +78,7 @@
         font-family: 'Acherus Grotesque', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         color: rgb(255, 255, 255);
         font-size: 10pt;
-        border: solid green 1px;
+        /* border: solid green 1px; */
     }
     .div_portfolio_sub_header{
         width: 100%;
@@ -88,24 +88,23 @@
         font-size: 14pt;
         font-weight: bold;
         text-shadow: 0px 0px 10px black;
-        /* margin-right: 15px; */
-        border: solid red 1px;
+        /* border: solid red 1px; */
     }
     .div_portfolio_blurb {
         width: 87%;
-        margin-top: 50px;
+        margin-top: 40px;
         font-family: 'Acherus Grotesque', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         color: rgb(255, 255, 255);
         text-align: left;
         font-size: 10pt;
         text-shadow: 0px 0px 10px black;
         margin-left: 20px;
-        border: solid blue 1px;
+        margin-bottom: 15px;
+        /* border: solid blue 1px; */
     }
     #img_portfolio_photo {
         float: right;
         width: 120px;
         border: solid white 2px;
-        /* margin-right: 20px; */
     }
 }
