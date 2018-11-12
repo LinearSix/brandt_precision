@@ -144,4 +144,10 @@
     #img01 {
         width: 400px;
     }
+    .close {
+        font-family: 'Acherus Grotesque', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: rgb(255, 255, 255);
+        text-align: right;
+        font-size: 20pt;
+    }
 }
