@@ -7,20 +7,55 @@
         <link rel="stylesheet" href="/nav.css" charset="utf-8">
         <link rel="stylesheet" href="/index.css" charset="utf-8">
         <link rel="stylesheet" href="/about.css" charset="utf-8">
-        <link rel="stylesheet" href="/footer.css" charset="utf-8">
     <title>Brandt Precision Machining - Home</title>
 </head>
 <body>
     <div class="div_body">
         <div class="div_main_container">
             <% include partials/nav_bar.ejs %>
-            <div class="div_staff_blurb">Brandt Precision Machining has been in business since 1989.
-                Our crew's combined experience exceeds 170 years.
-                Several of our machinists have each been in the industry for over 30 years.
-                This level of expertise allows us to meet the highest of quality control standards.
+            <div class="div_about_main">
+                <div class="div_about_sub_header">Company</div>
+                <div class="div_about_blurb">Brandt Precision Machining has been in business since 1989.
+                    Our crew's combined experience exceeds 170 years.
+                    Several of our machinists have each been in the industry for over 30 years.
+                    This level of expertise allows us to meet the highest of quality control standards.
+                </div>
+                <div class="div_staff_photo"><img id="img_staff_photo" src="staff.jpg"></div>
             </div>
-            <div class="div_staff_photo"><img src="staff.jpg"></div>
-            <% include partials/footer.ejs %>
+            <div class="div_about_main">
+                <div class="div_about_sub_header">Clients</div>
+                <div class="div_about_blurb">Our customers choose us for many reasons:
+                    <ul id="ul_clients">
+                        <li>Commitment to Quality and Confidentiality</li>
+                        <li>Ability to Hold Consistently Close Tolerances</li>
+                        <li>State-of-the-Art Design Facilities</li>
+                        <li>Experience with Most Plastics and Metals</li>
+                        <li>Experienced Work Force</li>
+                        <li>Quick Turn-Around Times</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="div_about_main">
+                <div class="div_about_sub_header">Industries</div>
+                <div class="div_about_blurb">We serve many industries with new parts, repairs, and modifications.
+                    <ul id="ul_industries">
+                        <li id="li_industries">Medical</li>
+                        <li id="li_industries">Aircraft</li>
+                        <li id="li_industries">Plastics</li>
+                        <li id="li_industries">Production</li>
+                        <li id="li_industries">Food/Beverage</li>
+                        <li id="li_industries">Semi-conductor</li>
+                        <li id="li_industries">Electronics</li>
+                        <li id="li_industries">Custom Motorcycle</li>
+                        <li id="li_industries">Custom Automotive</li>
+                        <li id="li_industries">Tooling and Fabrication</li>
+                        <li id="li_industries">Architecture</li>
+                        <li id="li_industries">Alternative Energy</li>
+                        <li id="li_industries">Industrial</li>
+                    </ul>
+                </div>
+            </div>
+        <% include partials/footer.ejs %>
         </div>
     </div>
 </body>

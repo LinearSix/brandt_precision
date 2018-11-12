@@ -11,3 +11,8 @@
 * 10:30am - 12:45pm | work on mobile friendly css
 * 1:30 - 4:00pm | work on mobile-friendly css
 * 4:00 - 5:00 | flesh out page routes
+## 2018_11_10
+* 1 hour | start about page
+## 2018_11_11
+* 9am - 11am | switching to mobile first mentality - css and content for about page
+* 

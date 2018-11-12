@@ -63,7 +63,39 @@
         color: white;
     }
 
-@media screen and (max-width: 767px) {
+/* FOOTER ########################### */
+
+    .div_footer {
+        width:80%;
+        display: flex;
+        justify-content: space-between;
+        position: fixed;
+        bottom: 15px;
+        /* background: linear-gradient(90deg, rgba(255, 255, 255, .7)1%, rgba(0, 0, 0, 0)49%, rgba(0, 0, 0, 0))50%; */
+        border-bottom-left-radius: 2px;
+        border-top-left-radius: 2px;
+        font-family: 'Acherus Grotesque', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 10pt;
+        text-shadow: 0px 0px 10px black;
+        border-top: solid rgba(255, 255, 255, .8) 1px;
+    }
+    @font-face {
+        font-family: "Asche";
+        src: url("acherus_grotesque_-_regular.otf") format("opentype");
+    }
+    .div_copyright {
+        margin: 7px;
+        color: white;
+    }
+    .div_footer_contact {
+        margin: 7px;
+        color: rgb(209, 204, 157);
+    }
+    #div_phone_icon {
+        display: none;
+    }
+
+@media screen and (max-width: 780px) {
     /* start of medium tablet styles */
     .div_nav_top_spacer {
         height: 15px;
@@ -130,8 +162,41 @@
     a:hover {
         color: white;
     }
+
+/* FOOTER ########################### */
+
+    .div_footer {
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        position: fixed;
+        bottom: 15px;
+        /* background: linear-gradient(90deg, rgba(255, 255, 255, .7)1%, rgba(0, 0, 0, 0)49%, rgba(0, 0, 0, 0))50%; */
+        border-bottom-left-radius: 2px;
+        border-top-left-radius: 2px;
+        font-family: 'Acherus Grotesque', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 10pt;
+        text-shadow: 0px 0px 10px black;
+        border-top: solid rgba(255, 255, 255, .8) 1px;
+    }
+    @font-face {
+        font-family: "Asche";
+        src: url("acherus_grotesque_-_regular.otf") format("opentype");
+    }
+    .div_copyright {
+        margin: 7px;
+        color: white;
+    }
+    .div_footer_contact {
+        margin: 7px;
+        color: rgb(209, 204, 157);
+    }
+    #div_phone_icon {
+        display: none;
+    }
 }
-@media screen and (max-width: 479px) {
+
+@media screen and (max-width: 500px) {
     /* start of phone styles */
     .div_nav_top_spacer {
         height: 15px;
@@ -200,5 +265,39 @@
     }
     a:hover {
         color: white;
+    }
+
+/* FOOTER ########################### */
+
+    .div_footer {
+        width: 100%;
+        display: inline-block;
+        justify-content: space-around;
+        position: relative;
+        bottom: 15px;
+        background: none;
+        border-bottom-left-radius: 2px;
+        border-top-left-radius: 2px;
+        font-family: 'Acherus Grotesque', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        text-shadow: 0px 0px 10px black;
+        border-top: solid rgba(255, 255, 255, .8) 1px;
+        margin-top: 15px;
+    }
+    @font-face {
+        font-family: "Asche";
+        src: url("acherus_grotesque_-_regular.otf") format("opentype");
+    }
+    .div_copyright {
+        margin: 7px;
+        color: white;
+        font-size: 8pt;
+    }
+    .div_footer_contact {
+        margin: 7px;
+        color: rgb(209, 204, 157);
+        font-size: 10pt;
+    }
+    #div_phone_icon {
+        display: inline;
     }
 }

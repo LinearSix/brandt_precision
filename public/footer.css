@@ -27,7 +27,7 @@
     #div_phone_icon {
         display: none;
     }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 780px) {
     .div_footer {
         width: 90%;
         display: flex;
@@ -58,7 +58,7 @@
         display: none;
     }
 }
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 450px) {
     .div_footer {
         width: 100%;
         display: inline-block;
