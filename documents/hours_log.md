@@ -15,4 +15,6 @@
 * 1 hour | start about page
 ## 2018_11_11
 * 9am - 11am | switching to mobile first mentality - css and content for about page
-* 
+* 5:30 - 7pm | passible mobile version of about
+* 7:45 - 8pm | complete routes
+* 8 - 9pm | start mobile layout for portfolio page

@@ -19,10 +19,16 @@ app.set('view engine', 'ejs')
 // set express routes
 const index = require('./routes');
 const about = require('./routes/about');
+const portfolio = require('./routes/portfolio');
+const services = require('./routes/services');
+const contact = require('./routes/contact');
 
 // use express routes
 app.use(index);
 app.use(about);
+app.use(portfolio);
+app.use(services);
+app.use(contact);
 
 // set redirect for users adding a /
 app.get('/', function(req, res){ res.redirect('index')});
