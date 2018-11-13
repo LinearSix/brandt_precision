@@ -81,6 +81,7 @@
         /* border: solid green 1px; */
     }
     .div_services_sub_header_left {
+        clear: both;
         width: 90%;
         font-family: 'Acherus Grotesque', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         color: rgb(209, 204, 157);
@@ -91,6 +92,7 @@
         /* border: solid red 1px; */
     }
     .div_services_sub_header_right {
+        clear: both;
         width: 90%;
         font-family: 'Acherus Grotesque', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         color: rgb(209, 204, 157);
@@ -126,15 +128,15 @@
     }
     .img_services_photo_left {
         float: right;
-        width: 120px;
-        border: solid white 2px;
+        width: 150px;
+        /* border: solid white 2px; */
         margin-left: 7px;
         margin-bottom: 7px;
     }
     .img_services_photo_right {
         float: left;
-        width: 120px;
-        border: solid white 2px;
+        width: 150px;
+        /* border: solid white 2px; */
         margin-right: 7px;
         margin-bottom: 7px;
     }
