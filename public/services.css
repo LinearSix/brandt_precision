@@ -1,69 +1,87 @@
     .div_services_main {
-        /* width: 90%; */
-        margin-top: 10px;
-        margin-left: 50px;
-        margin-right: 50px;
-        /* border: solid green 1px; */
-    }
-    .div_services_sub_header{
-        float: left;
-        width: 200px;
-        /* height: 100%; */
-        margin-top: 10px;
+        float: none;
+        width: 100%;
+        margin-top: 55px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 10px;
+        padding-right: 10px;
         font-family: 'Acherus Grotesque', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        color: rgba(250, 238, 133, 0.4);
-        text-align: right;
-        font-size: 24pt;
+        color: rgb(255, 255, 255);
+        font-size: 10pt;
+        border: solid green 1px;
+    }
+    .div_services_sub_header_left {
+        clear: both;
+        width: 90%;
+        font-family: 'Acherus Grotesque', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: rgb(209, 204, 157);
+        text-align: left;
+        font-size: 2vw;
         font-weight: bold;
         text-shadow: 0px 0px 10px black;
-        margin-right: auto;
-        /* border: solid red 1px; */
+        border: solid red 1px;
     }
-    .div_services_blurb {
-        /* float: left; */
-        /* height: 50px; */
+    .div_services_sub_header_right {
+        clear: both;
+        width: 90%;
+        font-family: 'Acherus Grotesque', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: rgb(209, 204, 157);
+        text-align: right;
+        font-size: 2vw;
+        font-weight: bold;
+        text-shadow: 0px 0px 10px black;
+        border: solid red 1px;
+    }
+    .div_services_blurb_left {
+        width: 70vw;
         margin-top: 20px;
         font-family: 'Acherus Grotesque', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         color: rgb(255, 255, 255);
         text-align: left;
-        font-size: 10pt;
+        font-size: 13pt;
         text-shadow: 0px 0px 10px black;
-        margin-left: 220px;
-        margin-right: auto;
-        /* border: solid blue 1px; */
+        margin-left: 20px;
+        margin-bottom: 15px;
+        border: solid blue 1px;
     }
-    .div_services_photo {
-        width: 70%;
-        border: solid white 2px;
-        align-self: auto;
-        margin-left: 220px;
-        margin-right: auto;
-    }
-    #img_services_photo {
-        width: 100%;
-    }
-    ul {
-        display: inline-flex;
-        justify-content: space-around;
-    }
-    li {
-        padding-right: 10px;
-    }
-    
-@media screen and (max-width: 780px) {
-    .div_staff_blurb {
-        margin-top: 100px;
+    .div_services_blurb_right {
+        width: 70vw;
+        margin-top: 20px;
         font-family: 'Acherus Grotesque', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         color: rgb(255, 255, 255);
-        text-align: center;
-        font-size: 10pt;
+        text-align: right;
+        font-size: 13pt;
         text-shadow: 0px 0px 10px black;
+        margin-right: 20px;
+        margin-bottom: 15px;
+        border: solid blue 1px;
     }
-    .div_staff_photo {
-        width: 90%;
-        border: solid white 2px;
+    .img_services_photo_left {
+        float: right;
+        width: 22vw;
+        /* border: solid white 2px; */
+        margin-left: 20px;
+        margin-bottom: 20px;
     }
-}
+    .img_services_photo_right {
+        float: left;
+        width: 22vw;
+        /* border: solid white 2px; */
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+    #ul_materials {
+        list-style-type: circle;
+        list-style-position: inside;
+        display: table;
+    }
+    #li_materials {
+        list-style-type: circle;
+        float: left;
+        padding-left: 10px;
+        /* display: inline-block; */
+    }
 
 @media screen and (max-width: 500px) {
     

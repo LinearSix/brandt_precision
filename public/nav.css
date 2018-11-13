@@ -69,7 +69,7 @@
         width:80%;
         display: flex;
         justify-content: space-between;
-        position: fixed;
+        position: relative;
         bottom: 15px;
         /* background: linear-gradient(90deg, rgba(255, 255, 255, .7)1%, rgba(0, 0, 0, 0)49%, rgba(0, 0, 0, 0))50%; */
         border-bottom-left-radius: 2px;
@@ -95,7 +95,7 @@
         display: none;
     }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 900px) {
     /* start of medium tablet styles */
     .div_nav_top_spacer {
         height: 15px;
@@ -169,7 +169,7 @@
         width: 90%;
         display: flex;
         justify-content: space-between;
-        position: fixed;
+        position: relative;
         bottom: 15px;
         /* background: linear-gradient(90deg, rgba(255, 255, 255, .7)1%, rgba(0, 0, 0, 0)49%, rgba(0, 0, 0, 0))50%; */
         border-bottom-left-radius: 2px;

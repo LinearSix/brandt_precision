@@ -20,3 +20,6 @@
 * 8 - 9pm | start mobile layout for portfolio page
 ## 2018_11_12
 * 8:30 - 9:30am | staggerered layout and click-enlarge for portfolio page
+* 1:00 - 3:30pm | services page
+## 2018_11_13
+* 9:00 - 9:30 | start styling for large screens
