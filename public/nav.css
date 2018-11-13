@@ -66,11 +66,14 @@
 /* FOOTER ########################### */
 
     .div_footer {
-        width:80%;
+        clear: both;
+        width: 80%;
         display: flex;
         justify-content: space-between;
         position: relative;
+        /* top:15px; */
         bottom: 15px;
+        background: none;
         /* background: linear-gradient(90deg, rgba(255, 255, 255, .7)1%, rgba(0, 0, 0, 0)49%, rgba(0, 0, 0, 0))50%; */
         border-bottom-left-radius: 2px;
         border-top-left-radius: 2px;
@@ -95,8 +98,8 @@
         display: none;
     }
 
-@media screen and (max-width: 900px) {
-    /* start of medium tablet styles */
+/* start of tablet and small desktop styles */
+@media screen and (max-width: 950px) {
     .div_nav_top_spacer {
         height: 15px;
     }
@@ -166,11 +169,13 @@
 /* FOOTER ########################### */
 
     .div_footer {
+        clear: both;
         width: 90%;
         display: flex;
         justify-content: space-between;
         position: relative;
         bottom: 15px;
+        background: none;
         /* background: linear-gradient(90deg, rgba(255, 255, 255, .7)1%, rgba(0, 0, 0, 0)49%, rgba(0, 0, 0, 0))50%; */
         border-bottom-left-radius: 2px;
         border-top-left-radius: 2px;
@@ -178,6 +183,7 @@
         font-size: 10pt;
         text-shadow: 0px 0px 10px black;
         border-top: solid rgba(255, 255, 255, .8) 1px;
+        margin-top: 15px;
     }
     @font-face {
         font-family: "Asche";
@@ -270,6 +276,7 @@
 /* FOOTER ########################### */
 
     .div_footer {
+        clear: both;
         width: 100%;
         display: inline-block;
         justify-content: space-around;
