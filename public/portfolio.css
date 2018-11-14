@@ -8,7 +8,7 @@
         padding-right: 0px;
         font-family: 'Acherus Grotesque', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         color: white;
-        border: solid green 1px;
+        /* border: solid green 1px; */
     }
     .div_portfolio_sub_header_left {
         clear: both;
@@ -18,7 +18,7 @@
         font-size: 1.9vw;
         font-weight: bold;
         text-shadow: 0px 0px 10px black;
-        border: solid red 1px;
+        /* border: solid red 1px; */
     }
     .div_portfolio_sub_header_right {
         clear: both;
@@ -28,7 +28,7 @@
         font-size: 1.9vw;
         font-weight: bold;
         text-shadow: 0px 0px 10px black;
-        border: solid red 1px;
+        /* border: solid red 1px; */
     }
     .div_portfolio_blurb_left {
         width: 90%;
@@ -40,7 +40,7 @@
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 30px;
-        border: solid blue 1px;
+        /* border: solid blue 1px; */
     }
     .div_portfolio_blurb_right {
         width: 90%;
@@ -52,7 +52,7 @@
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 30px;
-        border: solid blue 1px;
+        /* border: solid blue 1px; */
     }
     .img_portfolio_photo_left {
         float: right;
@@ -92,7 +92,7 @@
         padding-right: 0px;
         font-family: 'Acherus Grotesque', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         color: rgb(255, 255, 255);
-        border: solid green 1px;
+        /* border: solid green 1px; */
     }
     .div_portfolio_sub_header_left {
         clear: both;
@@ -102,7 +102,7 @@
         font-size: 14pt;
         font-weight: bold;
         text-shadow: 0px 0px 10px black;
-        border: solid red 1px;
+        /* border: solid red 1px; */
     }
     .div_portfolio_sub_header_right {
         clear: both;
@@ -112,7 +112,7 @@
         font-size: 14pt;
         font-weight: bold;
         text-shadow: 0px 0px 10px black;
-        border: solid red 1px;
+        /* border: solid red 1px; */
     }
     .div_portfolio_blurb_left {
         width: 90%;
@@ -124,7 +124,7 @@
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 15px;
-        border: solid blue 1px;
+        /* border: solid blue 1px; */
     }
     .div_portfolio_blurb_right {
         width: 90%;
@@ -136,7 +136,7 @@
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 15px;
-        border: solid blue 1px;
+        /* border: solid blue 1px; */
     }
     .img_portfolio_photo_left {
         float: right;

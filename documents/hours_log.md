@@ -24,3 +24,4 @@
 ## 2018_11_13
 * 9:00 - 9:30 | start styling for large screens
 * 5pm - 6pm | pretty happy with services css
+* 6pm - 7pm | migrate css to about page
