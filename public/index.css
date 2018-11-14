@@ -15,7 +15,7 @@
         height: 100%;
         margin-left: auto;
         margin-right: auto;
-        border: solid yellow 1px;
+        /* border: solid yellow 1px; */
         padding-bottom: 2.5rem;
     }
     @font-face {
@@ -90,7 +90,7 @@
         height: 100%;
         margin-left: auto;
         margin-right: auto;
-        border: solid yellow 1px;
+        /* border: solid yellow 1px; */
     }
     @font-face {
         font-family: "Asche";
@@ -160,7 +160,7 @@
         height: 100%;
         margin-left: auto;
         margin-right: auto;
-        border: solid yellow 1px;
+        /* border: solid yellow 1px; */
     }
     @font-face {
         font-family: "Asche";

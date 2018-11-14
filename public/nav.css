@@ -67,7 +67,7 @@
 
     .div_footer {
         clear: both;
-        width: 80%;
+        width: 100%;
         display: flex;
         justify-content: space-between;
         position: relative;
