@@ -6,56 +6,51 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link rel="stylesheet" href="/nav.css" charset="utf-8">
         <link rel="stylesheet" href="/index.css" charset="utf-8">
-        <link rel="stylesheet" href="/about.css" charset="utf-8">
+        <link rel="stylesheet" href="/contact.css" charset="utf-8">
     <title>Brandt Precision Machining - Contact</title>
 </head>
 <body>
     <div class="div_body">
         <div class="div_main_container">
             <% include partials/nav_bar.ejs %>
-            <!-- <div class="div_about_main">
-                <div class="div_about_sub_header">Company</div>
-                <div class="div_about_blurb">Brandt Precision Machining has been in business since 1989.
-                    Our crew's combined experience exceeds 170 years.
-                    Several of our machinists have each been in the industry for over 30 years.
-                    This level of expertise allows us to meet the highest of quality control standards.
+            <div class="div_contact_main">
+                <div class="div_contact_sub_header">Find Us</div>
+                <div class="div_contact_blurb">We are located at:
+                    <br />11116 North Lamar Blvd Ste D
+                    <br />Austin, TX 78753
                 </div>
-                <div class="div_staff_photo"><img id="img_staff_photo" src="staff.jpg"></div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2576.4211592664346!2d-97.68884491864078!3d30.380728397335417!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644c945330e2d3b%3A0x44b8fec74a1e2da3!2sBrandt+Precision+Machining!5e0!3m2!1sen!2sus!4v1541286569510" width="300" height="225" frameborder="2" style="border:2" allowfullscreen></iframe>
+                <div class="div_contact_sub_header">Contact Us</div>
+                <div class="div_contact_blurb">Please fill out and submit the following form with a description of your job.
+                    <br />Fields marked with * are required.
+                </div>
+                <form action="contact_submit" method="post">
+                    <table class="table_contact_container">
+                        <tr>
+                            <td class="td_contact_left">
+                                <div class="div_contact_label">* Name:</div>
+                                <div class="div_contact_label">* Phone:</div>
+                                <div class="div_contact_label">Company:</div>
+                                <div class="div_contact_label">Email:</div>
+                            </td>
+                            <td class="td_contact_right">
+                                <div class="div_contact_input"><input type="text" name="name"></div>
+                                <div class="div_contact_input"><input type="text" name="phone"></div>
+                                <div class="div_contact_input"><input type="text" name="company"></div>
+                                <div class="div_contact_input"><input type="text" name="email"></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="div_contact_textarea">
+                                Job Specifications / Requirements<br />
+                                <div class="div_contact_input"><textarea name="comment" rows="10" cols="40" maxlength="1000"
+                                    wrap="hard"></textarea></div>
+                            </td>
+                        </tr>
+                    </table>
+                </form>
             </div>
-            <div class="div_about_main">
-                <div class="div_about_sub_header">Clients</div>
-                <div class="div_about_blurb">Our customers choose us for many reasons:
-                    <ul id="ul_clients">
-                        <li>Commitment to Quality and Confidentiality</li>
-                        <li>Ability to Hold Consistently Close Tolerances</li>
-                        <li>State-of-the-Art Design Facilities</li>
-                        <li>Experience with Most Plastics and Metals</li>
-                        <li>Experienced Work Force</li>
-                        <li>Quick Turn-Around Times</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="div_about_main">
-                <div class="div_about_sub_header">Industries</div>
-                <div class="div_about_blurb">We serve many industries with new parts, repairs, and modifications.
-                    <ul id="ul_industries">
-                        <li id="li_industries">Medical</li>
-                        <li id="li_industries">Aircraft</li>
-                        <li id="li_industries">Plastics</li>
-                        <li id="li_industries">Production</li>
-                        <li id="li_industries">Food/Beverage</li>
-                        <li id="li_industries">Semi-conductor</li>
-                        <li id="li_industries">Electronics</li>
-                        <li id="li_industries">Custom Motorcycle</li>
-                        <li id="li_industries">Custom Automotive</li>
-                        <li id="li_industries">Tooling and Fabrication</li>
-                        <li id="li_industries">Architecture</li>
-                        <li id="li_industries">Alternative Energy</li>
-                        <li id="li_industries">Industrial</li>
-                    </ul>
-                </div>
-            </div> -->
-        <% include partials/footer.ejs %>
+            <% include partials/footer.ejs %>
         </div>
     </div>
 </body>

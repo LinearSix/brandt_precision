@@ -29,3 +29,6 @@
 * 7:30am - 8:30 | work on nav css behavior - trying for just 3 levels
 * 9 - 10am | settled on 4 levels for index and nav behavior
 * 10:30am - 12pm | footer css
+* 1:30pm - 2pm | footer css fail
+* 2:45 - 3:45pm | flesh out contact page
+* 
