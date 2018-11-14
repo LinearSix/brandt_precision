@@ -25,3 +25,6 @@
 * 9:00 - 9:30 | start styling for large screens
 * 5pm - 6pm | pretty happy with services css
 * 6pm - 7pm | migrate css to about page
+## 2018_11_14
+* 7:30am - 8:30 | work on nav css behavior - trying for just 3 levels
+* 9 - 10am | settled on 4 levels for index and nav behavior

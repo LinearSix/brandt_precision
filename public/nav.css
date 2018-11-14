@@ -1,3 +1,7 @@
+    @font-face {
+        font-family: "Asche";
+        src: url("acherus_grotesque_-_regular.otf") format("opentype");
+    }
     .div_nav_top_spacer {
         height: 15px;
         border: solid yellow 1px;
@@ -11,10 +15,6 @@
         color: white;
         border-bottom: solid rgba(255, 255, 255, .7) 1px;
         border: solid green 1px;
-    }
-    @font-face {
-        font-family: "Asche";
-        src: url("acherus_grotesque_-_regular.otf") format("opentype");
     }
     .div_nav_tagline {
         height: 30px;
@@ -88,10 +88,6 @@
         text-shadow: 0px 0px 10px black;
         border-top: solid rgba(255, 255, 255, .8) 1px;
     }
-    @font-face {
-        font-family: "Asche";
-        src: url("acherus_grotesque_-_regular.otf") format("opentype");
-    }
     .div_copyright {
         margin: 7px;
         color: white;
@@ -106,6 +102,11 @@
 
 /* start of tablet and small desktop styles */
 @media screen and (max-width: 950px) {
+
+    @font-face {
+        font-family: "Asche";
+        src: url("acherus_grotesque_-_regular.otf") format("opentype");
+    }
     .div_nav_top_spacer {
         height: 15px;
         border: solid yellow 1px;
@@ -118,10 +119,6 @@
         border-bottom: solid rgba(255, 255, 255, .7) 1px;
         border: solid green 1px;
     }
-    @font-face {
-        font-family: "Asche";
-        src: url("acherus_grotesque_-_regular.otf") format("opentype");
-    }
     .div_nav_tagline {
         height: 30px;
         padding-top: 2px;
@@ -129,7 +126,7 @@
         color: white;
         font-size: 10pt;
         white-space: nowrap;
-        border: solid gray 1px;
+        border: solid purple 1px;
     }
     /* navigation bar div */
     .div_logo {
@@ -193,9 +190,115 @@
         border-top: solid rgba(255, 255, 255, .8) 1px;
         margin-top: 15px;
     }
+    .div_copyright {
+        margin: 7px;
+        color: white;
+    }
+    .div_footer_contact {
+        margin: 7px;
+        color: rgb(209, 204, 157);
+    }
+    #div_phone_icon {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 780px) {
+
     @font-face {
         font-family: "Asche";
         src: url("acherus_grotesque_-_regular.otf") format("opentype");
+    }
+    .div_nav_top_spacer {
+        height: 15px;
+        border: solid yellow 1px;
+    }
+    .div_nav_container {
+        height: 68px;
+        background: linear-gradient(90deg, rgba(255, 255, 255, .7)20%, rgba(0, 0, 0, 0)45%, rgba(0, 0, 0, 0))35%;
+        border-bottom-left-radius: 2px;
+        border-top-left-radius: 2px;
+        border-bottom: solid rgba(255, 255, 255, .7) 1px;
+        border: solid green 1px;
+    }
+    .div_nav_tagline {
+        height: 30px;
+        padding-top: 2px;
+        padding-left: 6px;
+        /* font-family: 'Acherus Grotesque', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+        color: white;
+        font-size: 10pt;
+        white-space: nowrap;
+        border: solid purple 1px;
+    }
+    /* navigation bar div */    
+    .div_logo {
+        height: 52px;
+        float: left;
+        padding-left: 8px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        border: red 1px solid;
+    }
+    .div_nav {
+        clear: both;
+        width: 80%;
+        height: unset;
+        display: flex;
+        justify-content: space-around;
+        /* float: left; */
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding-right: 10%;
+        padding-left: 10%;
+        border: solid blue 1px;
+    }
+    /* navigation link divs */
+    .div_nav_link {
+        /* float: left; */
+        /* width: 70px; */
+        text-align: center;
+        /* font-family: 'Acherus Grotesque', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+        font-size: 11px;
+        color: rgb(209, 204, 157);
+        /* background: linear-gradient(rgb(105, 85, 20), rgb(141, 127, 70), rgb(36, 18, 2)); */
+        /* margin-top: 26px; */
+        /* margin-left: .8vw; */
+        /* margin-right: .8vw; */
+        border: solid orange 1px;
+    }
+    #div_phone_link {
+        display: inline;
+    }
+    #div_phone_icon {
+        display: none;
+    }
+    a {
+        color: rgb(209, 204, 157);
+        text-decoration: none;
+    }
+    a:hover {
+        color: white;
+    }
+
+/* FOOTER ########################### */
+
+    .div_footer {
+        clear: both;
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        bottom: 15px;
+        background: none;
+        /* background: linear-gradient(90deg, rgba(255, 255, 255, .7)1%, rgba(0, 0, 0, 0)49%, rgba(0, 0, 0, 0))50%; */
+        border-bottom-left-radius: 2px;
+        border-top-left-radius: 2px;
+        /* font-family: 'Acherus Grotesque', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+        font-size: 10pt;
+        text-shadow: 0px 0px 10px black;
+        border-top: solid rgba(255, 255, 255, .8) 1px;
+        margin-top: 15px;
     }
     .div_copyright {
         margin: 7px;
@@ -212,6 +315,10 @@
 
 @media screen and (max-width: 500px) {
     /* start of phone styles */
+    @font-face {
+        font-family: "Asche";
+        src: url("acherus_grotesque_-_regular.otf") format("opentype");
+    }
     .div_nav_top_spacer {
         height: 15px;
         border: solid yellow 1px;
@@ -224,10 +331,6 @@
         border-bottom: solid rgba(255, 255, 255, .7) 1px;
         border: solid green 1px;
     }
-    @font-face {
-        font-family: "Asche";
-        src: url("acherus_grotesque_-_regular.otf") format("opentype");
-    }
     .div_nav_tagline {
         height: 30px;
         padding-top: 2px;
@@ -236,7 +339,7 @@
         color: white;
         font-size: 10pt;
         white-space: nowrap;
-        border: solid gray 1px;
+        border: solid indianred 1px;
     }
     /* navigation bar div */
     .div_logo {
@@ -248,27 +351,28 @@
         border: red 1px solid;
     }
     .div_nav {
-        display: block;
-        width: 95%;
+        clear: both;
+        width: 90%;
+        height: unset;
         display: flex;
         justify-content: space-around;
-        height: 68px;
+        /* float: left; */
+        margin-top: 25px;
+        margin-bottom: 30px;
+        padding-right: 5%;
+        padding-left: 5%;
         border: solid blue 1px;
     }
     /* navigation link divs */
     .div_nav_link {
-        float: left;
-        /* width: 100px; */
-        padding-top: 7px;
-        padding-bottom: 7px;
         text-align: center;
         /* font-family: 'Acherus Grotesque', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
         font-size: 12px;
         color: rgb(209, 204, 157);
         /* background: linear-gradient(rgb(105, 85, 20), rgb(141, 127, 70), rgb(36, 18, 2)); */
-        margin-top: 40px;
-        margin-left: 3px;
-        margin-right: 3px;
+        /* margin-top: 26px; */
+        /* margin-left: .8vw; */
+        /* margin-right: .8vw; */
         border: solid orange 1px;
     }
     #div_phone_link {
@@ -303,10 +407,6 @@
         text-shadow: 0px 0px 10px black;
         border-top: solid rgba(255, 255, 255, .8) 1px;
         margin-top: 15px;
-    }
-    @font-face {
-        font-family: "Asche";
-        src: url("acherus_grotesque_-_regular.otf") format("opentype");
     }
     .div_copyright {
         margin: 7px;
