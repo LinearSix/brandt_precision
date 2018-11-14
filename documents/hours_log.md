@@ -28,3 +28,4 @@
 ## 2018_11_14
 * 7:30am - 8:30 | work on nav css behavior - trying for just 3 levels
 * 9 - 10am | settled on 4 levels for index and nav behavior
+* 10:30am - 12pm | footer css

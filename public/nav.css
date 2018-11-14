@@ -1,10 +1,11 @@
+/* * { border: 1px solid red; } */
     @font-face {
         font-family: "Asche";
         src: url("acherus_grotesque_-_regular.otf") format("opentype");
     }
     .div_nav_top_spacer {
         height: 15px;
-        border: solid yellow 1px;
+        /* border: solid yellow 1px; */
     }
     .div_nav_container {
         height: 68px;
@@ -14,7 +15,7 @@
         font-family: 'Acherus Grotesque', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         color: white;
         border-bottom: solid rgba(255, 255, 255, .7) 1px;
-        border: solid green 1px;
+        /* border: solid green 1px; */
     }
     .div_nav_tagline {
         height: 30px;
@@ -22,38 +23,30 @@
         color: white;
         font-size: 10pt;
         white-space: nowrap;
-        border: solid gray 1px;
+        /* border: solid gray 1px; */
     }
-    /* navigation bar div */
     .div_logo {
         height: 52px;
         float: left;
         padding-left: 8px;
         padding-top: 8px;
         padding-bottom: 8px;
-        border: red 1px solid;
+        /* border: red 1px solid; */
     }
     .div_nav {
         height: 68px;
         float: right;
-        /* padding-right: 10px; */
-        border: solid blue 1px;
+        /* border: solid blue 1px; */
     }
-    /* navigation link divs */
     .div_nav_link {
         float: left;
-        /* width: 100px; */
-        /* padding-top: 7px;
-        padding-bottom: 7px; */
         text-align: center;
-        /* font-family: 'Acherus Grotesque', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
         font-size: 13px;
         color: rgb(209, 204, 157);
-        /* background: linear-gradient(rgb(105, 85, 20), rgb(141, 127, 70), rgb(36, 18, 2)); */
         margin-top: 24px;
         margin-left: 1.4vw;
         margin-right: 1.4vw;
-        border: solid orange 1px;
+        /* border: solid orange 1px; */
     }
     #div_phone_link {
         display: inline;
@@ -71,30 +64,36 @@
 
 /* FOOTER ########################### */
 
-    .div_footer {
-        clear: both;
-        width: 100%;
+    .div_footer_large {
+        float: left;
+        /* width: 100%; */
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         position: relative;
-        /* top:15px; */
         bottom: 15px;
         background: none;
-        /* background: linear-gradient(90deg, rgba(255, 255, 255, .7)1%, rgba(0, 0, 0, 0)49%, rgba(0, 0, 0, 0))50%; */
         border-bottom-left-radius: 2px;
         border-top-left-radius: 2px;
-        /* font-family: 'Acherus Grotesque', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
         font-size: 10pt;
         text-shadow: 0px 0px 10px black;
         border-top: solid rgba(255, 255, 255, .8) 1px;
+        border: solid yellow 1px;
+    }
+    .div_footer_small {
+        display: none;
     }
     .div_copyright {
+        float: left;
         margin: 7px;
         color: white;
+        border: solid red 1px;
     }
     .div_footer_contact {
+        float: left;
         margin: 7px;
         color: rgb(209, 204, 157);
+        white-space: nowrap;
+        border: solid blue 1px;
     }
     #div_phone_icon {
         display: none;
@@ -109,7 +108,7 @@
     }
     .div_nav_top_spacer {
         height: 15px;
-        border: solid yellow 1px;
+        /* border: solid yellow 1px; */
     }
     .div_nav_container {
         height: 68px;
@@ -117,16 +116,15 @@
         border-bottom-left-radius: 2px;
         border-top-left-radius: 2px;
         border-bottom: solid rgba(255, 255, 255, .7) 1px;
-        border: solid green 1px;
+        /* border: solid green 1px; */
     }
     .div_nav_tagline {
         height: 30px;
         padding-top: 2px;
-        /* font-family: 'Acherus Grotesque', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
         color: white;
         font-size: 10pt;
         white-space: nowrap;
-        border: solid purple 1px;
+        /* border: solid purple 1px; */
     }
     /* navigation bar div */
     .div_logo {
@@ -135,27 +133,22 @@
         padding-left: 8px;
         padding-top: 8px;
         padding-bottom: 8px;
-        border: red 1px solid;
+        /* border: red 1px solid; */
     }
     .div_nav {
         height: 68px;
         float: right;
-        /* padding-right: 10px; */
-        border: solid blue 1px;
+        /* border: solid blue 1px; */
     }
-    /* navigation link divs */
     .div_nav_link {
         float: left;
-        /* width: 70px; */
         text-align: center;
-        /* font-family: 'Acherus Grotesque', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
         font-size: 11px;
         color: rgb(209, 204, 157);
-        /* background: linear-gradient(rgb(105, 85, 20), rgb(141, 127, 70), rgb(36, 18, 2)); */
         margin-top: 26px;
         margin-left: .8vw;
         margin-right: .8vw;
-        border: solid orange 1px;
+        /* border: solid orange 1px; */
     }
     #div_phone_link {
         display: inline;
@@ -173,30 +166,37 @@
 
 /* FOOTER ########################### */
 
-    .div_footer {
-        clear: both;
-        width: 90%;
+    .div_footer_large {
+        float: left;
+        /* width: 100%; */
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         position: relative;
         bottom: 15px;
         background: none;
-        /* background: linear-gradient(90deg, rgba(255, 255, 255, .7)1%, rgba(0, 0, 0, 0)49%, rgba(0, 0, 0, 0))50%; */
         border-bottom-left-radius: 2px;
         border-top-left-radius: 2px;
-        /* font-family: 'Acherus Grotesque', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
         font-size: 10pt;
         text-shadow: 0px 0px 10px black;
         border-top: solid rgba(255, 255, 255, .8) 1px;
-        margin-top: 15px;
+        border: solid yellow 1px;
+    }
+    .div_footer_small {
+        display: none;
     }
     .div_copyright {
+        float: left;
         margin: 7px;
         color: white;
+        font-size: 8pt;
+        border: solid red 1px;
     }
     .div_footer_contact {
+        float: left;
         margin: 7px;
         color: rgb(209, 204, 157);
+        white-space: nowrap;
+        border: solid blue 1px;
     }
     #div_phone_icon {
         display: none;
@@ -211,7 +211,7 @@
     }
     .div_nav_top_spacer {
         height: 15px;
-        border: solid yellow 1px;
+        /* border: solid yellow 1px; */
     }
     .div_nav_container {
         height: 68px;
@@ -219,26 +219,24 @@
         border-bottom-left-radius: 2px;
         border-top-left-radius: 2px;
         border-bottom: solid rgba(255, 255, 255, .7) 1px;
-        border: solid green 1px;
+        /* border: solid green 1px; */
     }
     .div_nav_tagline {
         height: 30px;
         padding-top: 2px;
         padding-left: 6px;
-        /* font-family: 'Acherus Grotesque', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
         color: white;
         font-size: 10pt;
         white-space: nowrap;
-        border: solid purple 1px;
-    }
-    /* navigation bar div */    
+        /* border: solid purple 1px; */
+    }  
     .div_logo {
         height: 52px;
         float: left;
         padding-left: 8px;
         padding-top: 8px;
         padding-bottom: 8px;
-        border: red 1px solid;
+        /* border: red 1px solid; */
     }
     .div_nav {
         clear: both;
@@ -246,26 +244,17 @@
         height: unset;
         display: flex;
         justify-content: space-around;
-        /* float: left; */
         margin-top: 20px;
         margin-bottom: 20px;
         padding-right: 10%;
         padding-left: 10%;
-        border: solid blue 1px;
+        /* border: solid blue 1px; */
     }
-    /* navigation link divs */
     .div_nav_link {
-        /* float: left; */
-        /* width: 70px; */
         text-align: center;
-        /* font-family: 'Acherus Grotesque', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
-        font-size: 11px;
+        font-size: 10px;
         color: rgb(209, 204, 157);
-        /* background: linear-gradient(rgb(105, 85, 20), rgb(141, 127, 70), rgb(36, 18, 2)); */
-        /* margin-top: 26px; */
-        /* margin-left: .8vw; */
-        /* margin-right: .8vw; */
-        border: solid orange 1px;
+        /* border: solid orange 1px; */
     }
     #div_phone_link {
         display: inline;
@@ -283,45 +272,52 @@
 
 /* FOOTER ########################### */
 
-    .div_footer {
-        clear: both;
-        width: 90%;
-        display: flex;
-        justify-content: space-between;
+    .div_footer_large {
+        display: none;
+    }
+    .div_footer_small {
+        float: left;
+        width: 100%;
+        display: block;
+        justify-content: space-around;
         position: relative;
         bottom: 15px;
         background: none;
-        /* background: linear-gradient(90deg, rgba(255, 255, 255, .7)1%, rgba(0, 0, 0, 0)49%, rgba(0, 0, 0, 0))50%; */
         border-bottom-left-radius: 2px;
         border-top-left-radius: 2px;
-        /* font-family: 'Acherus Grotesque', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
         font-size: 10pt;
         text-shadow: 0px 0px 10px black;
         border-top: solid rgba(255, 255, 255, .8) 1px;
-        margin-top: 15px;
+        /* border: solid yellow 1px; */
     }
     .div_copyright {
+        float: left;
         margin: 7px;
         color: white;
+        font-size: 8pt;
+        border: solid red 1px;
     }
     .div_footer_contact {
+        float: left;
         margin: 7px;
         color: rgb(209, 204, 157);
+        white-space: nowrap;
+        border: solid blue 1px;
     }
     #div_phone_icon {
         display: none;
     }
 }
 
+/* start of phone styles */
 @media screen and (max-width: 500px) {
-    /* start of phone styles */
     @font-face {
         font-family: "Asche";
         src: url("acherus_grotesque_-_regular.otf") format("opentype");
     }
     .div_nav_top_spacer {
         height: 15px;
-        border: solid yellow 1px;
+        /* border: solid yellow 1px; */
     }
     .div_nav_container {
         height: 68px;
@@ -329,26 +325,24 @@
         border-bottom-left-radius: 2px;
         border-top-left-radius: 2px;
         border-bottom: solid rgba(255, 255, 255, .7) 1px;
-        border: solid green 1px;
+        /* border: solid green 1px; */
     }
     .div_nav_tagline {
         height: 30px;
         padding-top: 2px;
         padding-left: 12px;
-        /* font-family: 'Acherus Grotesque', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
         color: white;
         font-size: 10pt;
         white-space: nowrap;
-        border: solid indianred 1px;
+        /* border: solid indianred 1px; */
     }
-    /* navigation bar div */
     .div_logo {
         height: 52px;
         float: left;
         padding-left: 8px;
         padding-top: 8px;
         padding-bottom: 8px;
-        border: red 1px solid;
+        /* border: red 1px solid; */
     }
     .div_nav {
         clear: both;
@@ -356,31 +350,23 @@
         height: unset;
         display: flex;
         justify-content: space-around;
-        /* float: left; */
         margin-top: 25px;
         margin-bottom: 30px;
         padding-right: 5%;
         padding-left: 5%;
-        border: solid blue 1px;
+        /* border: solid blue 1px; */
     }
-    /* navigation link divs */
     .div_nav_link {
         text-align: center;
-        /* font-family: 'Acherus Grotesque', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
         font-size: 12px;
         color: rgb(209, 204, 157);
-        /* background: linear-gradient(rgb(105, 85, 20), rgb(141, 127, 70), rgb(36, 18, 2)); */
-        /* margin-top: 26px; */
-        /* margin-left: .8vw; */
-        /* margin-right: .8vw; */
-        border: solid orange 1px;
+        /* border: solid orange 1px; */
     }
     #div_phone_link {
         display: none;
     }
     #div_phone_icon {
         float: right;
-        display: inline;
         margin: 12px;
     }
     a {
@@ -403,22 +389,26 @@
         background: none;
         border-bottom-left-radius: 2px;
         border-top-left-radius: 2px;
-        /* font-family: 'Acherus Grotesque', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
         text-shadow: 0px 0px 10px black;
         border-top: solid rgba(255, 255, 255, .8) 1px;
         margin-top: 15px;
+        border: solid yellow 1px;
     }
     .div_copyright {
         margin: 7px;
         color: white;
         font-size: 8pt;
+        border: solid red 1px;
     }
     .div_footer_contact {
         margin: 7px;
         color: rgb(209, 204, 157);
         font-size: 10pt;
+        white-space: nowrap;
+        border: solid blue 1px;
     }
     #div_phone_icon {
         display: inline;
+        border: solid green 1px;
     }
 }
