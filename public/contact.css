@@ -1,5 +1,7 @@
     .div_contact_main {
         float: none;
+        display: flex;
+        justify-content: space-between;
         width: 90%;
         margin-top: 20px;
         margin-left: auto;
@@ -8,42 +10,70 @@
         padding-right: 0px;
         font-family: 'Acherus Grotesque', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         color: white;
-        /* border: solid green 1px; */
+        border: solid gold 1px;
     }
-    .table_contact_container {
+    .div_form_container {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-bottom: 30px;
+        border: solid purple 1px;
+    }
+    .div_map_container {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-bottom: 30px;
+        border: solid purple 1px;
+    }
+    .div_map_header {
         width: 100%;
-        border: solid blue 1px;
-    }
-    .td_contact_left {
-        width: 50%;
-        padding: 13px;
-        text-align: right;
-        vertical-align: top;
-        font-size: 20px;
-        color: white;
-        /* offset-x | offset-y | blur-radius | color */
+        color: rgb(209, 204, 157);
+        text-align: center;
+        font-size: 1.9vw;
+        font-weight: bold;
         text-shadow: 0px 0px 10px black;
-        border: rgb(9, 255, 0) 1px solid;
+        border: solid red 1px;
     }
-    .td_contact_right {
-        width: 50%;
-        padding: 13px;
-        text-align: left;
-        vertical-align: top;
-        font-size: 20px;
-        color: white;
-        /* offset-x | offset-y | blur-radius | color */
+    .div_form_header {
+        width: 100%;
+        color: rgb(209, 204, 157);
+        text-align: center;
+        font-size: 1.9vw;
+        font-weight: bold;
         text-shadow: 0px 0px 10px black;
-        border: rgb(9, 255, 0) 1px solid;
+        border: solid red 1px;
+    }
+    .div_contact_blurb {
+        width: 90%;
+        overflow: auto;
+        margin-top: 16px;
+        text-align: center;
+        font-size: 1.25vw;
+        text-shadow: 0px 0px 10px black;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+        /* border: solid blue 1px; */
+    }
+    .map {
+        width: 30vw;
+        height: 20vw;
+        border: solid white 2px;
     }
     .div_contact_label {
         width: 100%;
         padding-top: 1px;
         text-align: right;
         font-family: 'Avenir', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size: 20px;
+        font-size: 16px;
         color: white;
         text-shadow: 0px 0px 10px black;
+        border: solid pink 1px;
     }
     .div_contact_input {
         width: 100%;
@@ -52,28 +82,7 @@
         font-size: 20px;
         color: white;
         text-shadow: 0px 0px 1px black;
-    }
-    .div_contact_sub_header{
-        clear: both;
-        width: 100%;
-        color: rgb(209, 204, 157);
-        text-align: left;
-        font-size: 1.9vw;
-        font-weight: bold;
-        text-shadow: 0px 0px 10px black;
-        /* border: solid red 1px; */
-    }
-    .div_contact_blurb {
-        width: 90%;
-        overflow: auto;
-        margin-top: 20px;
-        text-align: left;
-        font-size: 1.25vw;
-        text-shadow: 0px 0px 10px black;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 30px;
-        /* border: solid blue 1px; */
+        border: solid pink 1px;
     }
     .div_staff_photo {
         width: 55vw;
