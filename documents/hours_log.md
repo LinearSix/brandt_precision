@@ -31,4 +31,5 @@
 * 10:30am - 12pm | footer css
 * 1:30pm - 2pm | footer css fail
 * 2:45 - 3:45pm | flesh out contact page
-* 6:30 - 8:00 | contact page layout and styling
+* 6:30 - 8:00pm | contact page layout and styling
+* 8:30 - 

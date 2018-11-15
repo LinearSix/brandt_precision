@@ -18,8 +18,8 @@
         height: 100%;
         margin-left: auto;
         margin-right: auto;
-        border: solid yellow 1px;
         padding-bottom: 2.5rem;
+        /* border: solid yellow 1px; */
     }
     .div_machining_excellence {
         z-index: 1;
@@ -47,6 +47,7 @@
         display: flex;
         justify-content: space-around;
         margin-top: 80px;
+        margin-bottom: 25vh
     }
     .div_thumb {
         float: left;
@@ -93,17 +94,6 @@
         margin-right: auto;
         /* border: solid yellow 1px; */
     }
-    /* .div_machining_excellence {
-        z-index: 1;
-        margin-top: 100px;
-        font-family: 'Acherus Grotesque', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        color: rgba(250, 238, 133, 0.4);
-        font-weight: bolder;
-        text-align: center;
-        font-size: 37pt;
-        overflow: hidden;
-        text-overflow: clip;
-    } */
     .div_thumb_blurb {
         z-index: 2;
         color: rgb(255, 255, 255);
@@ -126,10 +116,8 @@
         text-align: center;
         font-size: 10pt;
         text-shadow: 0px 0px 10px black;
-        /* -webkit-filter: grayscale(100%); Safari 6.0 - 9.0 */
         -webkit-filter: brightness(200%);
         filter: brightness(100%);
-        /* filter: grayscale(50%); */
     }
     .div_thumb:hover {
         filter: brightness(120%);
@@ -162,17 +150,6 @@
         margin-right: auto;
         /* border: solid yellow 1px; */
     }
-    /* .div_machining_excellence {
-        z-index: 1;
-        margin-top: 60px;
-        font-family: 'Acherus Grotesque', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        color: rgba(250, 238, 133, 0.4);
-        font-weight: bolder;
-        text-align: center;
-        font-size: 17pt;
-        overflow: hidden;
-        text-overflow: unset;
-    } */
     .div_thumb_blurb {
         padding-left: 30px;
         padding-right: 30px;
@@ -191,17 +168,14 @@
         margin-bottom: 20px;
     }
     .div_thumb_container {
-        /* float: left; */
         width: 100px;
         height: 140px;
-        /* border: solid rgba(255, 255, 255, .7) 1px; */
         color: rgb(255, 255, 255);
         text-align: center;
         font-size: 10pt;
         text-shadow: 0px 0px 10px black;
     }
     .div_thumb {
-        /* float: left; */
         width: 100px;
         height: 75px;
         border: solid rgba(255, 255, 255, .7) 1px;
@@ -209,10 +183,8 @@
         text-align: center;
         font-size: 9pt;
         text-shadow: 0px 0px 10px black;
-        /* -webkit-filter: grayscale(100%); Safari 6.0 - 9.0 */
         -webkit-filter: none;
         filter: none;
-        /* filter: grayscale(50%); */
     }
     .div_thumb:hover {
         filter: none;
