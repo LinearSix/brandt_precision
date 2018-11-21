@@ -18,7 +18,7 @@
                     <div class="div_form_header">Contact Us</div>
                     <div class="div_contact_blurb">Please fill out and submit the following form with a description of your job.
                         <br />Fields marked with * are required.</div>
-                        <form action="contact_submit" method="post">
+                        <form action="contact_submit" method="post" enctype="multipart/form-data">
                             <table>
                                 <tr>
                                     <td><div class="div_contact_label">* Name&nbsp;</div></td>
@@ -38,7 +38,7 @@
                                 </tr>
                                 <tr>
                                     <td><div class="div_contact_label">File Upload&nbsp;</div></td>
-                                    <td><div class="div_contact_input"><input size="25" type="text" name="email"><br /><button>CHOOSE FILE</button></div></td>
+                                    <td><div class="div_contact_input"><input type="file" id="file" name="file" accept="image/png, image/jpeg"></div></td>
                                 </tr>
                                 <tr>
                                     <td><div class="div_contact_label">Job Specifications&nbsp;</div></td>

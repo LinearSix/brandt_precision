@@ -32,4 +32,9 @@
 * 1:30pm - 2pm | footer css fail
 * 2:45 - 3:45pm | flesh out contact page
 * 6:30 - 8:00pm | contact page layout and styling
-* 8:30 - 
+* 8:30 - 10pm | contact page layout and styling
+## 2018_11_15
+* 9:30 - 10:30am | working on contact form file attachment functionality
+* 2 - 5:30pm | got test contact page to send email with attachment
+
+42.75

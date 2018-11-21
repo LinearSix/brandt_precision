@@ -3,6 +3,15 @@ const express = require('express');
 const app = express();
 const PORT = process.env.PORT || 2181;
 const bodyParser = require('body-parser');
+const fileUpload = require('express-fileupload')
+
+app.use(fileUpload({
+    limits: { fileSize: 50 * 1024 * 1024 },
+  }));
+
+// use body-parser middleware
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
 
 // set the folder for ejs files
 app.set('views', path.join(__dirname, 'views'));

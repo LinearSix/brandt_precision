@@ -71,7 +71,7 @@
         justify-content: space-around;
         position: relative;
         bottom: 15px;
-        background: none;
+        background-color: rgba(32, 16, 0, 1.0);
         border-bottom-left-radius: 2px;
         border-top-left-radius: 2px;
         font-size: 10pt;
@@ -173,7 +173,7 @@
         justify-content: space-around;
         position: relative;
         bottom: 15px;
-        background: none;
+        background-color: rgba(32, 16, 0, 1.0);
         border-bottom-left-radius: 2px;
         border-top-left-radius: 2px;
         font-size: 10pt;
@@ -282,7 +282,7 @@
         justify-content: space-around;
         position: relative;
         bottom: 15px;
-        background: none;
+        background-color: rgba(32, 16, 0, 1.0);
         border-bottom-left-radius: 2px;
         border-top-left-radius: 2px;
         font-size: 10pt;
