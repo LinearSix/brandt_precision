@@ -6,25 +6,6 @@ const bodyParser = require('body-parser');
 const fileUpload = require('express-fileupload')
 const nodemailer = require('nodemailer');
 
-// ################
-// const multer = require('multer')
-// const upload = multer({ storage: multer.memoryStorage() })
-
-// router.post('/contact', upload.single('photo'), [
-//   // validation ...
-// ], (req, res) => {
-//   // error handling ...
-
-//   if (req.file) {
-//     console.log('Uploaded: ', req.file)
-//     // Homework: Upload file to S3
-//   }
-
-//   req.flash('success', 'Thanks for the message! I’ll be in touch :)')
-//   res.redirect('/')
-// })
-// #################
-
 // render home page
 router.get('/contact', (req, res, next) => {
     
