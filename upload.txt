@@ -1,4 +1,4 @@
-sftp -P 3022 sol.brandtprecision.com
+sftp -P 3022 davie@sol.brandtprecision.com
 (All one line)
 davie
 password Ch3rryW00d
