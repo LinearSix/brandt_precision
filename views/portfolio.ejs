@@ -16,22 +16,17 @@
             <div class="div_portfolio_main">
                 <div class="div_portfolio_sub_header_left">Portfolio Job #1</div>
                 <!-- enlargement div -->
-
-                    <div id="myModal" class="modal">
-
-                        <!-- The Close Button -->
-                        <span class="close">&times;</span>
-                        
-                        <!-- Modal Content (The Image) -->
-                        <img class="modal-content" id="img01">
-                        
-                        <!-- Modal Caption (Image Text) -->
-                        <div id="caption">This is a big version</div>
-                    </div>
-
+                <div id="myModal-1" class="modal-1">
+                    <!-- The Close Button -->
+                    <span class="close-1">&times;</span>
+                    <!-- Modal Content (The Image) -->
+                    <img class="modal-content-1" id="img01">
+                    <!-- Modal Caption (Image Text) -->
+                    <div id="caption-1">This is a big version</div>
+                </div>
                 <!-- end enlargement div -->
                 <div class="div_portfolio_blurb_left">
-                <img class="img_portfolio_photo_left" id="myImg" src="portfolio_01.jpg">
+                <img class="img_portfolio_photo_left" id="myImg-1" src="portfolio_01.jpg">
                 This is a description of the techniques, tooling, materials, and specialized skills utilized in this project. 
                 Any information that sets Brandt Precision Machining apart from other shops should be listed here. 
                 Why was this job awarded to BPM rather than some other machine shop? 
@@ -39,8 +34,18 @@
                 I'll ask you more about the job when I show up with mine.
                 </div>
                 <div class="div_portfolio_sub_header_right">Portfolio Job #2</div>
+                <!-- enlargement div -->
+                <div id="myModal-2" class="modal-2">
+                    <!-- The Close Button -->
+                    <span class="close-2">&times;</span>
+                    <!-- Modal Content (The Image) -->
+                    <img class="modal-content-2" id="img02">
+                    <!-- Modal Caption (Image Text) -->
+                    <div id="caption-2">This is a big version</div>
+                </div>
+                <!-- end enlargement div -->
                 <div class="div_portfolio_blurb_right">
-                <img class="img_portfolio_photo_right" id="portImg02" src="portfolio_02.jpg">
+                <img class="img_portfolio_photo_right" id="myImg-2" src="portfolio_02.jpg">
                 This is a description of the techniques, tooling, materials, and specialized skills utilized in this project. 
                 Any information that sets Brandt Precision Machining apart from other shops should be listed here. 
                 Why was this job awarded to BPM rather than some other machine shop?
@@ -48,8 +53,18 @@
                 I'll ask you more about the job when I show up with mine.
                 </div>
                 <div class="div_portfolio_sub_header_left">Portfolio Job #3</div>
+                <!-- enlargement div -->
+                <div id="myModal-3" class="modal-3">
+                    <!-- The Close Button -->
+                    <span class="close-3">&times;</span>
+                    <!-- Modal Content (The Image) -->
+                    <img class="modal-content-3" id="img03">
+                    <!-- Modal Caption (Image Text) -->
+                    <div id="caption-3">This is a big version</div>
+                </div>
+                <!-- end enlargement div -->
                 <div class="div_portfolio_blurb_left">
-                <img class="img_portfolio_photo_left" id="portImg03" src="portfolio_01.jpg">
+                <img class="img_portfolio_photo_left" id="myImg-3" src="portfolio_01.jpg">
                 This is a description of the techniques, tooling, materials, and specialized skills utilized in this project. 
                 Any information that sets Brandt Precision Machining apart from other shops should be listed here. 
                 Why was this job awarded to BPM rather than some other machine shop?
@@ -61,25 +76,66 @@
         </div>
     </div>
     <script>
-        // Get the modal
-        let modal = document.getElementById('myModal');
-        
+        // Get modal-1
+        let modal_1 = document.getElementById('myModal-1');
         // Get the image and insert it inside the modal - use its "alt" text as a caption
-        let img = document.getElementById('myImg');
-        let modalImg = document.getElementById("img01");
-        let captionText = document.getElementById("caption");
-        img.onclick = function(){
-            modal.style.display = "block";
-            modalImg.src = this.src;
-            captionText.innerHTML = this.alt;
+        let img_1 = document.getElementById('myImg-1');
+        let modalImg_1 = document.getElementById("img01");
+        let captionText_1 = document.getElementById("caption-1");
+        img_1.onclick = function(){
+            modal_1.style.display = "block";
+            modalImg_1.src = this.src;
+            captionText_1.innerHTML = this.alt;
         }
     
         // Get the <span> element that closes the modal
-        var span = document.getElementsByClassName("close")[0];
+        var span_1 = document.getElementsByClassName("close-1")[0];
         
         // When the user clicks on <span> (x), close the modal
-        span.onclick = function() { 
-          modal.style.display = "none";
+        span_1.onclick = function() { 
+          modal_1.style.display = "none";
+        }
+    </script>
+    <script>
+        // Get modal-1
+        let modal_2 = document.getElementById('myModal-2');
+        // Get the image and insert it inside the modal - use its "alt" text as a caption
+        let img_2 = document.getElementById('myImg-2');
+        let modalImg_2 = document.getElementById("img02");
+        let captionText_2 = document.getElementById("caption-2");
+        img_2.onclick = function(){
+            modal_2.style.display = "block";
+            modalImg_2.src = this.src;
+            captionText_2.innerHTML = this.alt;
+        }
+    
+        // Get the <span> element that closes the modal
+        let span_2 = document.getElementsByClassName("close-2")[0];
+        
+        // When the user clicks on <span> (x), close the modal
+        span_2.onclick = function() { 
+          modal_2.style.display = "none";
+        }
+    </script>
+    <script>
+        // Get modal-3
+        let modal_3 = document.getElementById('myModal-3');
+        // Get the image and insert it inside the modal - use its "alt" text as a caption
+        let img_3 = document.getElementById('myImg-3');
+        let modalImg_3 = document.getElementById("img03");
+        let captionText_3 = document.getElementById("caption-2");
+        img_3.onclick = function(){
+            modal_3.style.display = "block";
+            modalImg_3.src = this.src;
+            captionText_3.innerHTML = this.alt;
+        }
+    
+        // Get the <span> element that closes the modal
+        let span_3 = document.getElementsByClassName("close-3")[0];
+        
+        // When the user clicks on <span> (x), close the modal
+        span_3.onclick = function() { 
+          modal_3.style.display = "none";
         }
     </script>
 </body>
