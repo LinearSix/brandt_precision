@@ -17,3 +17,9 @@ Rework of the Brandt Precision Machining website
 * Highlight tooling capability
 * Medical, instrument, semiconductor
 * 
+
+#############################################################
+
+* Doc and I will try to get the site live on his server
+* Junk email user/pass for contact form
+* 
