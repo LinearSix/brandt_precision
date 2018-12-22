@@ -3,24 +3,46 @@
         src: url("acherus_grotesque_-_regular.otf") format("opentype");
     }
     body, html {
-        /* height: 100%; */
+        height: 100%;
         font-family: 'Acherus Grotesque', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         margin: 0;
     }
     .div_body {
-        height: 100%;
+        min-height: 100%;
+        position: relative;
+        box-sizing: border-box;
         background-image: linear-gradient(rgba(32, 16, 0, 0.85), rgba(32, 16, 0, 0.85), rgba(32, 16, 0, 1.0)),
                       url("background_home.jpg");
         background-size: 100vw; 
-        /* background-color: rgba(32, 16, 0, 0.85); */
+        /* border: solid yellow 2px; */
+    }
+    .div_construction {
+        z-index: 1;
+        width: 90vw;
+        height: 8vw;
+        position: absolute;
+        text-align: center;
+        transform: rotate(-5deg);
+        -webkit-transform: rotate(-5deg);
+        -moz-transform: rotate(-5deg);
+        -o-transform: rotate(-5deg);
+        top: 15vh;
+        left: 5vw;
+        background: rgba(255, 162, 1, 0.65);
+        font-family: 'Gill Sans';
+        color: rgba(0, 0, 0, 0.65);
+        font-size: 3vw;
+        font-weight: bold;
+        overflow: hidden;
     }
     .div_main_container {
+        position: relative;
         width: 80%;
-        height: 100%;
+        min-height: 100%;
         margin-left: auto;
         margin-right: auto;
-        padding-bottom: 2.5rem;
-        /* border: solid yellow 1px; */
+        padding-bottom: 40px;
+        /* border: solid green 2px; */
     }
     .div_machining_excellence {
         /* z-index: 1; */
@@ -48,7 +70,17 @@
         display: flex;
         justify-content: space-around;
         margin-top: 80px;
-        margin-bottom: 25vh
+        margin-bottom: 40px;
+    }
+    .div_thumb_container {
+        width: 160px;
+        height: 180px;
+        margin-left: 5px;
+        margin-right: 5px;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        font-size: 10pt;
+        text-shadow: 0px 0px 10px black;
     }
     .div_thumb {
         float: left;
@@ -79,23 +111,35 @@
         src: url("acherus_grotesque_-_regular.otf") format("opentype");
     }
     body, html {
-        /* height: 100%; */
+        height: 100%;
         font-family: 'Acherus Grotesque', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         margin: 0;
     }
     .div_body {
-        height: 100%;
+        min-height: 100%;
+        position: relative;
+        box-sizing: border-box;
         background-image: linear-gradient(rgba(32, 16, 0, 0.85), rgba(32, 16, 0, 0.85), rgba(32, 16, 0, 1.0)),
                       url("background_home.jpg");
-        background-size: 100vw; 
-        /* background-color: rgba(32, 16, 0, 0.85); */
+        background-size: 100vw;
+        /* border: solid yellow 2px; */
+    }
+    .div_construction {
+        top: 10vh;
+        font-size: 3.5vw;
+        transform: rotate(-2deg);
+        -webkit-transform: rotate(-2deg);
+        -moz-transform: rotate(-2deg);
+        -o-transform: rotate(-2deg);
     }
     .div_main_container {
+        position: relative;
         width: 90%;
-        height: 100%;
+        min-height: 100%;
         margin-left: auto;
         margin-right: auto;
-        /* border: solid yellow 1px; */
+        padding-bottom: 40px;
+        /* border: solid green 2px; */
     }
     .div_thumb_blurb {
         z-index: 2;
@@ -109,6 +153,16 @@
         display: flex;
         justify-content: space-around;
         margin-top: 80px;
+    }
+    .div_thumb_container {
+        width: 120px;
+        height: 160px;
+        margin-left: 5px;
+        margin-right: 5px;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        font-size: 10pt;
+        text-shadow: 0px 0px 10px black;
     }
     .div_thumb {
         float: left;
@@ -137,23 +191,36 @@
         src: url("acherus_grotesque_-_regular.otf") format("opentype");
     }
     body, html {
-        /* height: 100%; */
+        height: 100%;
         font-family: 'Acherus Grotesque', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         margin: 0;
     }
     .div_body {
-        height: 100%;
+        min-height: 100%;
+        position: relative;
+        box-sizing: border-box;
         background-image: linear-gradient(rgba(32, 16, 0, 0.85), rgba(32, 16, 0, 0.85), rgba(32, 16, 0, 1.0)),
                       url("background_home.jpg");
         background-size: 100vw; 
         /* background-color: rgba(32, 16, 0, 0.85); */
     }
+    .div_construction {
+        top: 35vh;
+        left: 3vw;
+        font-size: 3.5vw;
+        overflow: hidden;
+        transform: rotate(-2deg);
+        -webkit-transform: rotate(-2deg);
+        -moz-transform: rotate(-2deg);
+        -o-transform: rotate(-2deg);
+    }
     .div_main_container {
+        position: relative;
         width: 100%;
-        height: 100%;
+        min-height: 100%;
         margin-left: auto;
         margin-right: auto;
-        /* border: solid yellow 1px; */
+        padding-bottom: 150px;
     }
     .div_thumb_blurb {
         padding-left: 30px;
@@ -175,6 +242,8 @@
     .div_thumb_container {
         width: 100px;
         height: 140px;
+        margin-left: 5px;
+        margin-right: 5px;
         color: rgb(255, 255, 255);
         text-align: center;
         font-size: 10pt;

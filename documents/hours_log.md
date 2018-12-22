@@ -38,3 +38,14 @@
 * 2 - 5:30pm | got test contact page to send email with attachment
 
 42.75
+
+add esc function to enlargements
+add under construction banner
+fix footer
+
+## 2018_12_22
+* 8:30 - 10am footer positioning - construction banner
+* 4:00 - 5:30pm footer positioning - construction banner
+
+
+

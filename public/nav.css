@@ -66,10 +66,11 @@
 
     .div_footer_large {
         float: left;
-        width: 100%;
+        width: 80%;
         display: flex;
         justify-content: space-around;
-        position: relative;
+        position: absolute;
+        left: 10%;
         bottom: 15px;
         background-color: rgba(32, 16, 0, 1.0);
         border-bottom-left-radius: 2px;
@@ -168,10 +169,11 @@
 
     .div_footer_large {
         float: left;
-        /* width: 100%; */
+        width: 90%;
         display: flex;
         justify-content: space-around;
-        position: relative;
+        position: absolute;
+        left: 5%;
         bottom: 15px;
         background-color: rgba(32, 16, 0, 1.0);
         border-bottom-left-radius: 2px;
@@ -280,7 +282,7 @@
         width: 100%;
         display: block;
         justify-content: space-around;
-        position: relative;
+        position: absolute;
         bottom: 15px;
         background-color: rgba(32, 16, 0, 1.0);
         border-bottom-left-radius: 2px;
