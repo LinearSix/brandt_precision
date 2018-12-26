@@ -47,5 +47,7 @@ fix footer
 * 8:30 - 10am footer positioning - construction banner
 * 4:00 - 5:30pm footer positioning - construction banner
 
+## 2018_12_26
+* 12-12:30pm added escape feature to portfolio enlargements
 
 

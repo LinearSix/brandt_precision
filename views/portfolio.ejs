@@ -138,5 +138,23 @@
           modal_3.style.display = "none";
         }
     </script>
+    <script>
+        // added escape function for enlargements per customer request
+        document.onkeydown = function(evt) {
+            evt = evt || window.event;
+            let isEscape = false;
+            if ("key" in evt) {
+                isEscape = (evt.key == "Escape" || evt.key == "Esc");
+            } else {
+                isEscape = (evt.keyCode == 27);
+            }
+            if (isEscape) {
+                // alert("Escape");
+                modal_1.style.display = "none";
+                modal_2.style.display = "none";
+                modal_3.style.display = "none";
+            }
+        };
+    </script>
 </body>
 </html>
