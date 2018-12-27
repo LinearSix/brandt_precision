@@ -35,7 +35,8 @@ router.post('/contact_submit', function (req, res) {
       from: req.body.name + ' &lt;' + req.body.email + '&gt;',
       to: 'linearsix@gmail.com',
       subject: 'New message from contact form at brandtprecision.com',
-      text: `${req.body.name} - ${req.body.company} (phone: ${req.body.phone} email: ${req.body.email}) says: ${req.body.comment}`, 
+      text: `Name: ${req.body.name} - ${req.body.company} (phone: ${req.body.phone} email: ${req.body.email}) says: ${req.body.comment}`, 
+      html: `<p>Name: ${req.body.name}</p><p>Company: ${req.body.company}</p><p>Phone: ${req.body.phone}</p><p>Email: ${req.body.email})</p><p>Job Specs: ${req.body.comment}</p>`, 
       attachments: [
         {
          filename: req.body.file, 
