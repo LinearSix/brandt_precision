@@ -49,5 +49,6 @@ fix footer
 
 ## 2018_12_26
 * 12-12:30pm added escape feature to portfolio enlargements
+* 8-9:30pm added form submission success and failure messages
 
 

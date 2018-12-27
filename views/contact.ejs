@@ -13,6 +13,15 @@
     <div class="div_body">
         <div class="div_main_container">
             <% include partials/nav_bar.ejs %>
+            <% if (selected_link === 'CONTACT_SUCCESS') { %>
+                <div class="div_contact_success_header">Thank You!</div>
+                <div class="div_contact_success_blurb">A staff member will be in touch with you shortly!</div>
+            <% } %>
+            <% if (selected_link === 'CONTACT_FAILURE') { %>
+                <div class="div_contact_success_header">We're Sorry</div>
+                <div class="div_contact_success_blurb">Something went wrong with the form submission. 
+                    <br />Please try again or contact us via email or phone.</div>
+            <% } %>
             <div class="div_contact_main">
                 <div class="div_form_container">
                     <div class="div_form_header">Contact Us</div>
@@ -22,11 +31,11 @@
                             <table>
                                 <tr>
                                     <td><div class="div_contact_label">* Name&nbsp;</div></td>
-                                    <td><div class="div_contact_input"><input size="25" type="text" name="name"></div></td>
+                                    <td><div class="div_contact_input"><input size="25" type="text" name="name" required></div></td>
                                 </tr>
                                 <tr>
                                     <td><div class="div_contact_label">* Phone&nbsp;</div></td>
-                                    <td><div class="div_contact_input"><input size="25" type="text" name="phone"></div></td>
+                                    <td><div class="div_contact_input"><input size="25" type="text" name="phone" required></div></td>
                                 </tr>
                                 <tr>
                                     <td><div class="div_contact_label">Company&nbsp;</div></td>
@@ -38,7 +47,7 @@
                                 </tr>
                                 <tr>
                                     <td><div class="div_contact_label">File Upload&nbsp;</div></td>
-                                    <td><div class="div_contact_input"><input type="file" id="file" name="file" accept="image/png, image/jpeg"></div></td>
+                                    <td><div class="div_contact_input"><input type="file" id="file" name="file" multiple></div></td>
                                 </tr>
                                 <tr>
                                     <td><div class="div_contact_label">Job Specifications&nbsp;</div></td>

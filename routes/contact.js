@@ -35,7 +35,7 @@ router.post('/contact_submit', function (req, res) {
       from: req.body.name + ' &lt;' + req.body.email + '&gt;',
       to: 'linearsix@gmail.com',
       subject: 'New message from contact form at brandtprecision.com',
-      text: `${req.body.name} - ${req.body.company} (phone: ${req.body.email} email: ${req.body.email}) says: ${req.body.comment}`, 
+      text: `${req.body.name} - ${req.body.company} (phone: ${req.body.phone} email: ${req.body.email}) says: ${req.body.comment}`, 
       attachments: [
         {
          filename: req.body.file, 
@@ -45,14 +45,15 @@ router.post('/contact_submit', function (req, res) {
     };
     smtpTrans.sendMail(mailOpts, function (error, response) {
       if (error) {
-        let selected_link = 'CONTACT';
-        res.render('contact_failure', { selected_link });
+        let selected_link = 'CONTACT_FAILURE';
+        res.render('contact', { selected_link });
       }
       else {
-        let selected_link = 'CONTACT';
-        res.render('contact_success', { selected_link });
+        let selected_link = 'CONTACT_SUCCESS';
+        res.render('contact', { selected_link });
       }
     });
   });
+
 
 module.exports = router;
