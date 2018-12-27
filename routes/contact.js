@@ -27,19 +27,19 @@ router.post('/contact_submit', function (req, res) {
       port: 465,
       secure: true,
       auth: {
-        user: 'linearsix@gmail.com', // get this into an environment variable!
-        pass: '1GmailIsEnough!' // get this into an environment variable!
+        user: 'user@gmail.com', // get this into an environment variable!
+        pass: 'pass' // get this into an environment variable!
       }
     });
     mailOpts = {
       from: req.body.name + ' &lt;' + req.body.email + '&gt;',
       to: 'linearsix@gmail.com',
       subject: 'New message from contact form at brandtprecision.com',
-      text: `Name: ${req.body.name} - ${req.body.company} (phone: ${req.body.phone} email: ${req.body.email}) says: ${req.body.comment}`, 
+      text: `Name: ${req.body.name}\r\nCompany: ${req.body.company}\r\nPhone: ${req.body.phone}\r\nEmail: ${req.body.email}\r\nSpecs: ${req.body.comment}\r\n`, 
       attachments: [
         {
-         filename: req.body.file, 
-         path: req.body.file
+         filename: req.body.file
+        //  path: req.body.file
         }
      ]
     };
