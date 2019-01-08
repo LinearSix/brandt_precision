@@ -23,12 +23,12 @@ router.post('/contact_submit', function (req, res) {
     // }
     let mailOpts, smtpTrans;
     smtpTrans = nodemailer.createTransport({
-      host: 'smtp.gmail.com',
+      host: 'smtp.brandtprecision.com',
       port: 465,
-      secure: true,
+      secure: false,
       auth: {
-        user: 'user@gmail.com', // get this into an environment variable!
-        pass: 'pass' // get this into an environment variable!
+        user: 'davie@brandtprecision.com', // get this into an environment variable!
+        pass: '1BrandtIsEnough!' // get this into an environment variable!
       }
     });
     mailOpts = {
