@@ -6,8 +6,9 @@ const bodyParser = require('body-parser');
 const fileUpload = require('express-fileupload')
 
 app.use(fileUpload({
-    limits: { fileSize: 50 * 1024 * 1024 },
-  }));
+    useTempFiles : true,
+    tempFileDir : '/tmp/'
+}));
 
 // use body-parser middleware
 app.use(bodyParser.json());

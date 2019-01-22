@@ -2,11 +2,12 @@
 
 const express = require('express');
 const router = express.Router();
-const bodyParser = require('body-parser');
-const fileUpload = require('express-fileupload')
+// const bodyParser = require('body-parser');
+// const fileUpload = require('express-fileupload')
 const nodemailer = require('nodemailer');
-const multer  = require('multer')
-let upload = multer({ storage: 'MemoryStorage' })
+// const multer  = require('multer')
+// let storage = multer.memoryStorage()
+// let upload = multer({ storage: storage })
 
 // render home page
 router.get('/contact', (req, res, next) => {
@@ -17,11 +18,12 @@ router.get('/contact', (req, res, next) => {
 });
 
 // POST route from contact form
-router.post('/contact_submit', function (req, res) {
-  console.log(`body.file type: ${typeof(req.body.file)}`);
-  console.log(`body.file: ${req.body.file}`);
-  console.log(`files.file type: ${typeof(req.files.file)}`);
-  console.log(`files.file: ${req.files.file}`);
+router.post('/contact_submit', function (req, res, next) {
+  // console.log(`body.file type: ${typeof(req.body.file)}`);
+  // console.log(`body.file: ${req.body.file}`);
+  console.log(`req.files.attachment type: ${typeof(req.files.attachment)}`);
+  console.log(`file.attachment.name: ${req.files.attachment.name}`);
+  console.log(`Number of Files ${Object.keys(req.files).length}`)
   // let fileElement = document.getElementById("file");
   // inputElement.addEventListener("change", handleFiles, false);
   // function handleFiles() {
@@ -44,8 +46,8 @@ router.post('/contact_submit', function (req, res) {
     text: `Name: ${req.body.name}\r\nCompany: ${req.body.company}\r\nPhone: ${req.body.phone}\r\nEmail: ${req.body.email}\r\nSpecs: ${req.body.comment}\r\n`, 
     attachments: [
       {
-        filename: req.body.file,
-        streamSource: req.files.file
+        filename: req.files.attachment.name,
+        content: req.files.attachment.data
       }
     ]
   };
