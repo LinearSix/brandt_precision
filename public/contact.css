@@ -96,6 +96,15 @@
         text-shadow: 0px 0px 10px black;
         /* border: solid pink 1px; */
     }
+    .div_contact_filetypes {
+        width: 100%;
+        padding-top: 2px;
+        text-align: right;
+        font-size: 12px;
+        color: white;
+        text-shadow: 0px 0px 10px black;
+        /* border: solid pink 1px; */
+    }
     .div_contact_input {
         width: 100%;
         text-align: left;
@@ -107,6 +116,28 @@
 
 @media screen and (max-width: 780px) {
 
+    .div_contact_success_header {
+        width: 100%;
+        color: rgb(209, 204, 157);
+        text-align: center;
+        font-size: 14px;
+        font-weight: bold;
+        text-shadow: 0px 0px 10px black;
+        /* border: solid red 1px; */
+    }
+    .div_contact_success_blurb {
+        width: 90%;
+        color: white;
+        overflow: auto;
+        margin-top: 16px;
+        text-align: center;
+        font-size: 10px;
+        text-shadow: 0px 0px 10px black;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+        /* border: solid blue 1px; */
+    }
     .div_contact_main {
         float: none;
         display: unset;
@@ -181,6 +212,15 @@
         padding-top: 2px;
         text-align: right;
         font-size: 12px;
+        color: white;
+        text-shadow: 0px 0px 10px black;
+        /* border: solid pink 1px; */
+    }
+    .div_contact_filetypes {
+        width: 100%;
+        padding-top: 2px;
+        text-align: right;
+        font-size: 8px;
         color: white;
         text-shadow: 0px 0px 10px black;
         /* border: solid pink 1px; */

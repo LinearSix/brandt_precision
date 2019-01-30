@@ -14,7 +14,7 @@
         <div class="div_main_container">
             <% include partials/nav_bar.ejs %>
             <div class="div_portfolio_main">
-                <div class="div_portfolio_sub_header_left">Portfolio Job #1</div>
+                <div class="div_portfolio_sub_header_left">Brass Electronics Box</div>
                 <!-- enlargement div -->
                 <div id="myModal-1" class="modal-1">
                     <!-- The Close Button -->
@@ -22,18 +22,22 @@
                     <!-- Modal Content (The Image) -->
                     <img class="modal-content-1" id="img01">
                     <!-- Modal Caption (Image Text) -->
-                    <div id="caption-1">This is a big version</div>
                 </div>
                 <!-- end enlargement div -->
                 <div class="div_portfolio_blurb_left">
-                <img class="img_portfolio_photo_left" id="myImg-1" src="portfolio_01.jpg">
-                This is a description of the techniques, tooling, materials, and specialized skills utilized in this project. 
-                Any information that sets Brandt Precision Machining apart from other shops should be listed here. 
-                Why was this job awarded to BPM rather than some other machine shop? 
-                I think the description should be about this long. If you've piqued my interest at this point, 
-                I'll ask you more about the job when I show up with mine.
+                    <figure class="fig_portfolio_left"><img class="img_portfolio_photo_left" id="myImg-1" src="portfolio_01.jpg">
+                        <figcaption class="capt_portfolio_left">Click image to enlarge</figcaption>
+                    </figure>
+                    Working with brass alloys is challenging, especially when it comes to tapping 
+                    small holes like the 0-80 size prominent in this electronics chassis. 
+                    Our techniques and tool selection ensure the perfect depth and form 
+                    of these features.
+                    <br />&nbsp;<br />
+                    This piece will be finished with nickel plating, requiring 
+                    special attention to tolerance to ensure proper clearances in the final 
+                    assembly after build-up of the plating.
                 </div>
-                <div class="div_portfolio_sub_header_right">Portfolio Job #2</div>
+                <div class="div_portfolio_sub_header_right">Mini Screws</div>
                 <!-- enlargement div -->
                 <div id="myModal-2" class="modal-2">
                     <!-- The Close Button -->
@@ -41,18 +45,20 @@
                     <!-- Modal Content (The Image) -->
                     <img class="modal-content-2" id="img02">
                     <!-- Modal Caption (Image Text) -->
-                    <div id="caption-2">This is a big version</div>
                 </div>
                 <!-- end enlargement div -->
                 <div class="div_portfolio_blurb_right">
-                <img class="img_portfolio_photo_right" id="myImg-2" src="portfolio_02.jpg">
-                This is a description of the techniques, tooling, materials, and specialized skills utilized in this project. 
-                Any information that sets Brandt Precision Machining apart from other shops should be listed here. 
-                Why was this job awarded to BPM rather than some other machine shop?
-                I think the description should be about this long. If you've piqued my interest at this point, 
-                I'll ask you more about the job when I show up with mine.
+                        <figure class="fig_portfolio_right"><img class="img_portfolio_photo_right" id="myImg-2" src="portfolio_02.jpg">
+                            <figcaption class="capt_portfolio_right">Click image to enlarge</figcaption>
+                        </figure>
+                        Small parts can be a big deal. When it comes to accurately machining 
+                        tight tolerances and achieving superb finishes at a small scale, few can complete 
+                        with Brandt Precision.
+                        <br />&nbsp;<br />
+                        Our staff is revered for their meticulous 
+                        attention to detail and vast experience with methods befitting delicate parts.
                 </div>
-                <div class="div_portfolio_sub_header_left">Portfolio Job #3</div>
+                <div class="div_portfolio_sub_header_left">Acetal Chassis</div>
                 <!-- enlargement div -->
                 <div id="myModal-3" class="modal-3">
                     <!-- The Close Button -->
@@ -60,16 +66,39 @@
                     <!-- Modal Content (The Image) -->
                     <img class="modal-content-3" id="img03">
                     <!-- Modal Caption (Image Text) -->
-                    <div id="caption-3">This is a big version</div>
                 </div>
                 <!-- end enlargement div -->
                 <div class="div_portfolio_blurb_left">
-                <img class="img_portfolio_photo_left" id="myImg-3" src="portfolio_01.jpg">
-                This is a description of the techniques, tooling, materials, and specialized skills utilized in this project. 
-                Any information that sets Brandt Precision Machining apart from other shops should be listed here. 
-                Why was this job awarded to BPM rather than some other machine shop?
-                I think the description should be about this long. If you've piqued my interest at this point, 
-                I'll ask you more about the job when I show up with mine.
+                    <figure class="fig_portfolio_left_tall"><img class="img_portfolio_photo_left_tall" id="myImg-3" src="portfolio_03.jpg">
+                        <figcaption class="capt_portfolio_left_tall">Click image to enlarge</figcaption>
+                    </figure>
+                    Plastics can exhibit erratic deformations during machining, especially when 
+                    dealing with large scale pieces.
+                    <br />&nbsp;<br />
+                    Our techniques in relaxing material and properly sequencing operations 
+                    ensure that tolerance and functionality are maintained in the finished part.
+                </div>
+                <div class="div_portfolio_sub_header_right">Graphite Shoulder Implant Prototype</div>
+                <!-- enlargement div -->
+                <div id="myModal-4" class="modal-4">
+                    <!-- The Close Button -->
+                    <span class="close-4">&times;</span>
+                    <!-- Modal Content (The Image) -->
+                    <img class="modal-content-4" id="img04">
+                    <!-- Modal Caption (Image Text) -->
+                </div>
+                <!-- end enlargement div -->
+                <div class="div_portfolio_blurb_right">
+                        <figure class="fig_portfolio_right"><img class="img_portfolio_photo_right" id="myImg-4" src="portfolio_04.jpg">
+                            <figcaption class="capt_portfolio_right">Click image to enlarge</figcaption>
+                        </figure>
+                        Few materials create as much tool wear as tungsten-impregnated graphite. 
+                        Special tooling and attention is required on every part to guarantee 
+                        surface finishes remain fluid and tolerance is maintained. 
+                        <br />&nbsp;<br />
+                        Our CNC programmers understand and implement the most optimal 
+                        toolpaths to create beautiful 3D contours and uphold the engineered  
+                        functionality.
                 </div>
             </div>
         </div>
@@ -123,7 +152,7 @@
         // Get the image and insert it inside the modal - use its "alt" text as a caption
         let img_3 = document.getElementById('myImg-3');
         let modalImg_3 = document.getElementById("img03");
-        let captionText_3 = document.getElementById("caption-2");
+        let captionText_3 = document.getElementById("caption-3");
         img_3.onclick = function(){
             modal_3.style.display = "block";
             modalImg_3.src = this.src;
@@ -138,6 +167,27 @@
           modal_3.style.display = "none";
         }
     </script>
+    <script>
+            // Get modal-4
+            let modal_4 = document.getElementById('myModal-4');
+            // Get the image and insert it inside the modal - use its "alt" text as a caption
+            let img_4 = document.getElementById('myImg-4');
+            let modalImg_4 = document.getElementById("img04");
+            let captionText_4 = document.getElementById("caption-4");
+            img_4.onclick = function(){
+                modal_4.style.display = "block";
+                modalImg_4.src = this.src;
+                captionText_4.innerHTML = this.alt;
+            }
+        
+            // Get the <span> element that closes the modal
+            let span_4 = document.getElementsByClassName("close-4")[0];
+            
+            // When the user clicks on <span> (x), close the modal
+            span_4.onclick = function() { 
+              modal_4.style.display = "none";
+            }
+        </script>
     <script>
         // added escape function for enlargements per customer request
         document.onkeydown = function(evt) {

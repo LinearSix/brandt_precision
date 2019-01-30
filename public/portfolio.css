@@ -54,18 +54,70 @@
         margin-bottom: 30px;
         /* border: solid blue 1px; */
     }
+    .fig_portfolio_left {
+        float: right;
+        width: 24vw;
+        margin-left: 20px;
+        margin-right: 0px;
+        margin-top: 0px;
+        margin-bottom: 10px;
+        /* border: solid yellow 1px; */
+    }
+    .fig_portfolio_left_tall {
+        float: right;
+        width: 18vw;
+        margin-left: 20px;
+        margin-right: 0px;
+        margin-top: 0px;
+        margin-bottom: 10px;
+        /* border: solid yellow 1px; */
+    }
+    .fig_portfolio_right {
+        float: left;
+        width: 24vw;
+        margin-left: 0px;
+        margin-right: 20px;
+        margin-top: 0px;
+        margin-bottom: 10px;
+        /* border: solid yellow 1px; */
+    }
+    .capt_portfolio_left {
+        text-align: center;
+        width: 24vw;
+        margin-top: 10px;
+        font-size: 1vw;
+        /* border: solid red 1px; */
+    }
+    .capt_portfolio_left_tall {
+        text-align: center;
+        width: 18vw;
+        margin-top: 10px;
+        font-size: 1vw;
+        /* border: solid red 1px; */
+    }
+    .capt_portfolio_right {
+        text-align: center;
+        width: 24vw;
+        margin-top: 10px;
+        font-size: 1vw;
+        /* border: solid red 1px; */
+    }
     .img_portfolio_photo_left {
         float: right;
-        width: 25vw;
-        margin-left: 20px;
-        margin-bottom: 20px;
+        width: 24vw;
+        margin-bottom: 10px;
+        border: solid white 2px;
+    }
+    .img_portfolio_photo_left_tall {
+        float: right;
+        width: 18vw;
+        margin-bottom: 10px;
         border: solid white 2px;
     }
     .img_portfolio_photo_right {
         float: left;
-        width: 25vw;
-        margin-right: 20px;
-        margin-bottom: 20px;
+        width: 24vw;
+        margin-bottom: 10px;
         border: solid white 2px;
     }
 
@@ -295,6 +347,82 @@
         cursor: pointer;
     }
 
+    /* ENLARGEMENT 4 ############################## */
+    
+
+    /* Style the Image Used to Trigger the Modal */
+    #myImg-4 {
+        /* border-radius: 5px; */
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    #myImg-4:hover {opacity: 0.7;}
+
+    /* The Modal (background) */
+    .modal-4 {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        padding-top: 100px; /* Location of the box */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        background-color: rgb(0,0,0); /* Fallback color */
+        background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+    }
+
+    /* Modal Content (Image) */
+    .modal-content-4 {
+        margin: auto;
+        display: block;
+        width: 100%;
+        /* max-width: 800px; */
+    }
+
+    /* Caption of Modal Image (Image Text) - Same Width as the Image */
+    #caption-4 {
+        margin: auto;
+        display: block;
+        width: 80%;
+        max-width: 700px;
+        text-align: center;
+        color: #ccc;
+        padding: 10px 0;
+        height: 150px;
+    }
+
+    /* Add Animation - Zoom in the Modal */
+    .modal-content-4, #caption-4 { 
+        animation-name: zoom;
+        animation-duration: 0.6s;
+    }
+
+    @keyframes zoom {
+        from {transform:scale(0)} 
+        to {transform:scale(1)}
+    }
+
+    /* The Close Button */
+    .close-4 {
+        position: absolute;
+        top: 15px;
+        right: 35px;
+        color: #f1f1f1;
+        font-size: 40px;
+        font-weight: bold;
+        transition: 0.3s;
+    }
+
+    .close-4:hover,
+    .close-4:focus {
+        color: #bbb;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
 /* MOBILE STYLES ################################################################ */
     
 @media screen and (max-width: 500px) {
@@ -354,19 +482,59 @@
         margin-bottom: 15px;
         /* border: solid blue 1px; */
     }
-    .img_portfolio_photo_left {
+    .fig_portfolio_left{
         float: right;
-        width: 150px;
+        width: 144px;
+        margin-left: 20px;
+        margin-right: 0px;
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+    .fig_portfolio_right{
+        float: left;
+        width: 144px;
+        margin-left: 0px;
+        margin-right: 20px;
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+    .fig_portfolio_left_tall{
+        float: right;
+        width: 108px;
+        margin-left: 20px;
+        margin-right: 0px;
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+    .capt_portfolio_left{
+        text-align: center;
+        width: 144px;
+        margin-top: 10px;
+        font-size: 10px;
+    }
+    .capt_portfolio_right{
+        text-align: center;
+        width: 144px;
+        margin-top: 10px;
+        font-size: 10px;
+    }
+    .capt_portfolio_left_tall{
+        text-align: center;
+        width: 108px;
+        margin-top: 10px;
+        font-size: 10px;
+    }
+    .img_portfolio_photo_left {
+        width: 144px;
         border: solid white 2px;
-        margin-left: 7px;
-        margin-bottom: 7px;
     }
     .img_portfolio_photo_right {
-        float: left;
-        width: 150px;
+        width: 144px;
         border: solid white 2px;
-        margin-right: 7px;
-        margin-bottom: 7px;
+    }
+    .img_portfolio_photo_left_tall {
+        width: 108px;
+        border: solid white 2px;
     }
     .modal {
         display: none;

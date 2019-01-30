@@ -51,4 +51,7 @@ fix footer
 * 12-12:30pm added escape feature to portfolio enlargements
 * 8-9:30pm added form submission success and failure messages
 
+## 2019_01_30
+* Format new images for portfolio page
+
 
