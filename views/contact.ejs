@@ -1,90 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link rel="stylesheet" href="/nav.css" charset="utf-8">
-        <link rel="stylesheet" href="/index.css" charset="utf-8">
-        <link rel="stylesheet" href="/contact.css" charset="utf-8">
-    <title>Brandt Precision Machining - Contact</title>
-</head>
-<body>
-    <div class="div_body">
-        <div class="div_main_container">
-            <% include partials/nav_bar.ejs %>
-            <% if (selected_link === 'CONTACT_SUCCESS') { %>
-                <div class="div_contact_success_header">Thank You!</div>
-                <div class="div_contact_success_blurb">A staff member will be in touch with you shortly!</div>
-            <% } %>
-            <% if (selected_link === 'CONTACT_FAILURE') { %>
-                <div class="div_contact_success_header">We're Sorry</div>
-                <div class="div_contact_success_blurb">Something went wrong with the form submission. 
-                    <br />Please try again or contact us via email or phone.</div>
-            <% } %>
-            <div class="div_contact_main">
-                <div class="div_form_container">
-                    <div class="div_form_header">Contact Us</div>
-                    <div class="div_contact_blurb">Please fill out and submit the following form with a description of your job.
-                        <br />Fields marked with * are required.</div>
-                        <form action="contact_submit" method="post" enctype="multipart/form-data">
-                            <table>
-                                <tr>
-                                    <td><div class="div_contact_label">* Name&nbsp;</div></td>
-                                    <td><div class="div_contact_input"><input size="25" type="text" name="name" required></div></td>
-                                </tr>
-                                <tr>
-                                    <td><div class="div_contact_label">* Phone&nbsp;</div></td>
-                                    <td><div class="div_contact_input"><input size="25" type="text" name="phone" required></div></td>
-                                </tr>
-                                <tr>
-                                    <td><div class="div_contact_label">Company&nbsp;</div></td>
-                                    <td><div class="div_contact_input"><input size="25" type="text" name="company"></div></td>
-                                </tr>
-                                <tr>
-                                    <td><div class="div_contact_label">Email&nbsp;</div></td>
-                                    <td><div class="div_contact_input"><input size="25" type="text" name="email"></div></td>
-                                </tr>
-                                <tr>
-                                    <td><div class="div_contact_label">File Upload&nbsp;</div></td>
-                                    <td><div class="div_contact_input"><input type="file" id="attachment1" name="attachment1"></div></td>
-                                </tr>
-                                <tr>
-                                    <td rowspan="2"><div class="div_contact_filetypes">Accepted File Types
-                                        <br />.jpg .pdf .cad .sldpt
-                                        <br />.doc .mcx .png</div></td>
-                                    <td><div class="div_contact_input"><input type="file" id="attachment2" name="attachment2"></div></td>
-                                </tr>
-                                <tr>
-                                    <!-- <td><div class="div_contact_label">&nbsp;</div></td> -->
-                                    <td><div class="div_contact_input"><input type="file" id="attachment3" name="attachment3"></div></td>
-                                </tr>
-                                <tr>
-                                    <td><div class="div_contact_label">Job Specifications&nbsp;</div></td>
-                                    <td><div class="div_contact_input"><textarea name="comment" rows="13" cols="24" maxlength="1000"
-                                        wrap="hard"></textarea></div></td>
-                                </tr>
-                                <tr>
-                                    <td></td>
-                                    <td align="left"><p><button type="submit">SUBMIT</button></p></td>
-                                </tr>
-                            </table>
-                        </form>
-                    </div>
-                    <div class="div_map_container">
-                        <div class="div_map_header">Find Us</div>
-                        <div class="div_contact_blurb">We are located at:
-                            <br />11116 North Lamar Blvd Ste D
-                            <br />Austin, TX 78753
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+            <link rel="stylesheet" href="/nav.css" charset="utf-8">
+            <link rel="stylesheet" href="/index.css" charset="utf-8">
+            <link rel="stylesheet" href="/contact.css" charset="utf-8">
+            <script src='https://www.google.com/recaptcha/api.js'></script>
+        <title>Brandt Precision Machining - Contact</title>
+    </head>
+    <body>
+        <div class="div_body">
+            <div class="div_main_container">
+                <% include partials/nav_bar.ejs %>
+                <% if (selected_link === 'CONTACT_SUCCESS') { %>
+                    <div class="div_contact_success_header">Thank You!</div>
+                    <div class="div_contact_success_blurb">A staff member will be in touch with you shortly!</div>
+                <% } %>
+                <% if (selected_link === 'CONTACT_FAILURE') { %>
+                    <div class="div_contact_success_header">We're Sorry</div>
+                    <div class="div_contact_success_blurb">Something went wrong with the form submission. 
+                        <br />Please try again or contact us via email or phone.</div>
+                <% } %>
+                <div class="div_contact_main">
+                    <div class="div_form_container">
+                        <div class="div_form_header">Contact Us</div>
+                        <div class="div_contact_blurb">Please fill out and submit the following form with a description of your job.
+                            <br />Fields marked with * are required.</div>
+                            <form onsubmit="return validateForm()" id="contact_submit">
+                                <table>
+                                    <tr>
+                                        <td><div class="div_contact_label">* Name&nbsp;</div></td>
+                                        <td><div class="div_contact_input"><input size="25" type="text" name="name" required></div></td>
+                                    </tr>
+                                    <tr>
+                                        <td><div class="div_contact_label">* Phone&nbsp;</div></td>
+                                        <td><div class="div_contact_input"><input size="25" type="text" name="phone" required></div></td>
+                                    </tr>
+                                    <tr>
+                                        <td><div class="div_contact_label">Company&nbsp;</div></td>
+                                        <td><div class="div_contact_input"><input size="25" type="text" name="company"></div></td>
+                                    </tr>
+                                    <tr>
+                                        <td><div class="div_contact_label">Email&nbsp;</div></td>
+                                        <td><div class="div_contact_input"><input size="25" type="text" name="email"></div></td>
+                                    </tr>
+                                    <tr>
+                                        <td><div class="div_contact_label">File Upload&nbsp;</div></td>
+                                        <td><div class="div_contact_input"><input type="file" id="attachment1" name="attachment1"></div></td>
+                                    </tr>
+                                    <tr>
+                                        <td rowspan="2"><div class="div_contact_filetypes">Accepted File Types
+                                            <br />.jpg .pdf .cad .sldpt
+                                            <br />.doc .mcx .png</div></td>
+                                        <td><div class="div_contact_input"><input type="file" id="attachment2" name="attachment2"></div></td>
+                                    </tr>
+                                    <tr>
+                                        <td><div class="div_contact_input"><input type="file" id="attachment3" name="attachment3"></div></td>
+                                    </tr>
+                                    <tr>
+                                        <td><div class="div_contact_label">Job Specifications&nbsp;</div></td>
+                                        <td><div class="div_contact_input"><textarea name="comment" rows="13" cols="24" maxlength="1000"
+                                            wrap="hard"></textarea></div></td>
+                                    </tr>
+                                    <tr>
+                                        <td align="center" colspan="2">
+                                            <div class="g-recaptcha" data-sitekey="6Lc48YkUAAAAAAG4jE9diZsLaW8ktyE4Sr0a6Ucy"></div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td align="left"><p><button type="submit">SUBMIT</button></p></td>
+                                    </tr>
+                                </table>
+                            </form>
                         </div>
-                        <div class="div_contact_blurb">
-                            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2576.4211592664346!2d-97.68884491864078!3d30.380728397335417!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644c945330e2d3b%3A0x44b8fec74a1e2da3!2sBrandt+Precision+Machining!5e0!3m2!1sen!2sus!4v1541286569510" allowfullscreen></iframe>
+                        <div class="div_map_container">
+                            <div class="div_map_header">Find Us</div>
+                            <div class="div_contact_blurb">We are located at:
+                                <br />11116 North Lamar Blvd Ste D
+                                <br />Austin, TX 78753
+                            </div>
+                            <div class="div_contact_blurb">
+                                <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2576.4211592664346!2d-97.68884491864078!3d30.380728397335417!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644c945330e2d3b%3A0x44b8fec74a1e2da3!2sBrandt+Precision+Machining!5e0!3m2!1sen!2sus!4v1541286569510" allowfullscreen></iframe>
+                            </div>
                         </div>
                     </div>
                 </div>
+                <% include partials/footer.ejs %>
             </div>
-            <% include partials/footer.ejs %>
         </div>
-    </div>
-</body>
+        <script>
+            function validateForm(e) {
+                const captcha = document.querySelector('#g-recaptcha-response').value;
+                if (captcha === undefined || captcha === '' || captcha === null ) {
+                    alert("Please select captcha before submitting the form.");
+                    // e.preventDefault();
+                    return false;
+                } else {
+                    let form = document.getElementById('contact_submit');
+                    form.action = 'contact_submit';
+                    form.method = 'POST';
+                    form.enctype = "multipart/form-data"
+                    form.submit();
+                    return true;
+                };
+            };
+        </script>
+    </body>
 </html>

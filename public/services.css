@@ -66,6 +66,12 @@
         margin-right: 20px;
         margin-bottom: 20px;
     }
+    .img_services_photo_right_narrow {
+        float: left;
+        width: 10vw;
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
     ul {
         list-style-position: inside;
         display: table;
@@ -147,6 +153,12 @@
         /* border: solid white 2px; */
         margin-right: 7px;
         margin-bottom: 7px;
+    }
+    .img_services_photo_right_narrow {
+        float: left;
+        width: 100px;
+        margin-right: 20px;
+        margin-bottom: 20px;
     }
     ul {
         list-style-position: inside;
