@@ -69,6 +69,12 @@ fix footer
 ## 2019_02_05
 * 8:30am-2pm migrate changes to live site
 
+## 2019_02_11
+* 11am-12am remove under construction. add more to come...
+
+## 2019_03_12
+* 8-9am crop and size new portfolio photos
+
 ## 
 1. You want to add an entry to the portfolio page, the Celazole PBI Fangs (I’m trying to remember what these are)
 Do I already have photos of this or are they forthcoming?

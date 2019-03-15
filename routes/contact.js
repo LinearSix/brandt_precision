@@ -27,7 +27,7 @@ router.post('/contact_submit', (req, res) => {
   }
 
   // Secret Key and Verify URL
-  const secretKey = '6Lc48YkUAAAAAHSWF_kgVAaOspjeFKmGFtE9NGgD';
+  const secretKey = process.env.SECRET_CAPTCHA;
   const verifyUrl = `https://www.google.com/recaptcha/api/siteverify?secret=${secretKey}&response=${captcha}&remoteip=${req.connection.remoteAddress}`;
   console.log(`verifyUrl: ${verifyUrl}`);
   
@@ -72,14 +72,14 @@ router.post('/contact_submit', (req, res) => {
         port: 465,
         secure: true,
         auth: {
-          user: 'davie@brandtprecision.com', // get this into an environment variable!
-          pass: 'JunkAccount001' // get this into an environment variable!
+          user: process.env.VAR_USER,
+          pass: process.env.VAR_PASS
         }
       });
       console.log(`attachmentsArray: ${attachmentsArray}`)
       mailOpts = {
         from: req.body.name + ' &lt;' + req.body.email + '&gt;',
-        to: 'linearsix@gmail.com',
+        to: process.env.TO,
         subject: 'New message from contact form at brandtprecision.com',
         text: `Name: ${req.body.name}\r\nCompany: ${req.body.company}\r\nPhone: ${req.body.phone}\r\nEmail: ${req.body.email}\r\nSpecs: ${req.body.comment}\r\n`, 
         attachments: attachmentsArray

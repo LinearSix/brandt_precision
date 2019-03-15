@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/LinearSix/brandt_precision#readme",
   "dependencies": {
+    "dotenv": "^7.0.0",
     "ejs": "^2.6.1",
     "event-stream": "^3.3.4",
     "express": "^4.16.4",
