@@ -15,7 +15,6 @@ router.get('/contact', (req, res, next) => {
 
 });
 
-// if form is submitted
 router.post('/contact_submit', (req, res) => {
   console.log(`g-recaptcha-response: ${req.body["g-recaptcha-response"]}`);
   let captcha = req.body["g-recaptcha-response"];
