@@ -11,6 +11,7 @@
         padding-right: 0px;
         font-family: 'Acherus Grotesque', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         color: white;
+        overflow: visible;
         /* border: solid green 1px; */
     }
     .div_services_sub_header_left {
@@ -86,19 +87,17 @@
     .img_services_equipment {
         max-width:15vw;
         max-height:15vw;
-        margin-left: auto;
-        margin-right: auto;
         width: auto;
         height: auto;
     }
     figure {
         padding: 1vw;
-        display: table;
-        width: 1px;
+        margin: 0 -1px;
         margin: 0;
+        overflow: visible;
+        text-align: center;
     }
     figcaption {
-        text-align: center;
         font-size: 1vw;
         text-shadow: 0px 0px 10px black;
     }
