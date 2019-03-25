@@ -1,3 +1,6 @@
+    /* div {
+        border: solid yellow 1px;
+    } */
     .div_services_main {
         float: none;
         width: 90%;
@@ -44,7 +47,7 @@
     }
     .div_services_blurb_right {
         width: 90%;
-        overflow: auto;
+        overflow: unset;
         margin-top: 20px;
         text-align: right;
         font-size: 1.25vw;
@@ -53,6 +56,14 @@
         margin-right: auto;
         margin-bottom: 30px;
         /* border: solid blue 1px; */
+    }
+    .div_services_equipment {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+        overflow: visible;
     }
     .img_services_photo_left {
         float: right;
@@ -65,6 +76,17 @@
         width: 25vw;
         margin-right: 20px;
         margin-bottom: 20px;
+    }
+    .img_services_equipment {
+        max-width:150px;
+        max-height:150px;
+        width: auto;
+        height: auto;
+    }
+    figcaption {
+        text-align: center;
+        font-size: 1vw;
+        text-shadow: 0px 0px 10px black;
     }
     .img_services_photo_right_narrow {
         float: left;
