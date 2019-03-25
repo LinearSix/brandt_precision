@@ -75,6 +75,9 @@ fix footer
 ## 2019_03_12
 * 8-9am crop and size new portfolio photos
 
+## 2019_03_25
+* 8:30-11am add photos and description to services page
+
 ## 
 1. You want to add an entry to the portfolio page, the Celazole PBI Fangs (I’m trying to remember what these are)
 Do I already have photos of this or are they forthcoming?
