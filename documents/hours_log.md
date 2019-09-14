@@ -78,6 +78,12 @@ fix footer
 ## 2019_03_25
 * 8:30-11am add photos and description to services page
 
+## 2019_08_03
+* 8-11:30am Added new VM2 photo and description and welding blurb/photo in services
+
+## 2019_09_14
+* 7:45-10:30am Removed automotive references. Added custom tooling blurb/photo
+
 ## 
 1. You want to add an entry to the portfolio page, the Celazole PBI Fangs (I’m trying to remember what these are)
 Do I already have photos of this or are they forthcoming?

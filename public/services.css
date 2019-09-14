@@ -84,6 +84,18 @@
         margin-right: 20px;
         margin-bottom: 20px;
     }
+    .img_services_photo_right_welding {
+        float: left;
+        width: 15vw;
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+    .img_services_photo_left_tooling {
+        float: right;
+        width: 10vw;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
     .img_services_equipment {
         max-width:15vw;
         max-height:15vw;
@@ -187,6 +199,18 @@
         float: left;
         width: 100px;
         margin-right: 20px;
+        margin-bottom: 20px;
+    }
+    .img_services_photo_right_welding {
+        float: left;
+        width: 100px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+    .img_services_photo_left_tooling {
+        float: right;
+        width: 80px;
+        margin-left: 20px;
         margin-bottom: 20px;
     }
     .img_services_equipment {
